@@ -1,0 +1,23 @@
+
+Request,ATL10-response.dap,https://opendap.uat.earthdata.nasa.gov/collections/C1241426950-NSIDC_CUAT/granules/ATL10-01_20200101002212_00810601_005_02.h5.dap?dap4.ce=/orbit_info_rgt;/orbit_info_crossing_time;/gt3r_freeboard_beam_segment_beam_freeboard_latitude%5B0:2048:%5D;/gt3r_freeboard_beam_segment_beam_freeboard_longitude%5B0:2048:%5D;/gt3r_freeboard_beam_segment_beam_freeboard_delta_time%5B0:2048:%5D;/gt3l_freeboard_beam_segment_beam_freeboard_latitude%5B0:2048:%5D;/gt3l_freeboard_beam_segment_beam_freeboard_longitude%5B0:2048:%5D;/gt3l_freeboard_beam_segment_beam_freeboard_delta_time%5B0:2048:%5D;/gt2r_freeboard_beam_segment_beam_freeboard_latitude%5B0:2048:%5D;/gt2r_freeboard_beam_segment_beam_freeboard_longitude%5B0:2048:%5D;/gt2r_freeboard_beam_segment_beam_freeboard_delta_time%5B0:2048:%5D;/gt2l_freeboard_beam_segment_beam_freeboard_latitude%5B0:2048:%5D;/gt2l_freeboard_beam_segment_beam_freeboard_longitude%5B0:2048:%5D;/gt2l_freeboard_beam_segment_beam_freeboard_delta_time%5B0:2048:%5D;/gt1r_freeboard_beam_segment_beam_freeboard_latitude%5B0:2048:%5D;/gt1r_freeboard_beam_segment_beam_freeboard_longitude%5B0:2048:%5D;/gt1r_freeboard_beam_segment_beam_freeboard_delta_time%5B0:2048:%5D;/gt1l_freeboard_beam_segment_beam_freeboard_latitude%5B0:2048:%5D;/gt1l_freeboard_beam_segment_beam_freeboard_longitude%5B0:2048:%5D;/gt1l_freeboard_beam_segment_beam_freeboard_delta_time%5B0:2048:%5D
+Connect (s),TTFB (s),Total time(s),Response size (bytes)
+0.060070,7.784479,7.895783,174910
+0.055642,7.133745,7.250505,174910
+0.060825,6.779127,6.888086,174910
+0.055885,6.149787,6.262022,174910
+0.055607,6.157346,6.267474,174910
+0.055828,6.388238,6.499339,174910
+0.055790,6.096134,6.206726,174910
+0.189048,4.450318,4.561680,174910
+0.055386,3.957478,4.067870,174910
+0.055256,4.117534,4.232682,174910
+0.055450,4.745374,4.856690,174910
+0.055505,4.577249,4.688497,174910
+0.059305,4.547444,4.678155,174910
+0.060919,4.236858,4.347502,174910
+0.054556,4.114636,4.231199,174910
+0.055950,4.194642,4.303844,174910
+0.055213,4.031512,4.142949,174910
+0.055187,3.828218,3.939703,174910
+0.055423,4.586246,4.700178,174910
+0.056128,4.283488,4.394169,174910
