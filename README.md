@@ -1,6 +1,15 @@
 
 # Performance analysis of NASA's Open Altimetry Web UI
 
+## About the data in run_1 and run_2
+
+These directories hold csv files that contain the total time, time to connect to the server and the total time to the 
+first byte of data. The timing information was collected by cURL. For data in `run_1` the client was _not_ using the
+EBNET VPN while for `run_2` the client _was_ using the VPN.
+
+## About the data in raw-bes-logs
+
+
 ## Driving around on UAT's EC2 instances
 
 AWS Console --> System Manager --> Session Manager. 
