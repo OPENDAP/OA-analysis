@@ -1,0 +1,23 @@
+
+Request,ATL07-response.dap,https://opendap.uat.earthdata.nasa.gov/collections/C1241426887-NSIDC_CUAT/granules/ATL07-01_20200101015629_00820601_005_01.h5.dap?dap4.ce=/orbit_info_rgt;/orbit_info_crossing_time;/gt3r_sea_ice_segments_latitude%5B0:1024:%5D;/gt3r_sea_ice_segments_longitude%5B0:1024:%5D;/gt3r_sea_ice_segments_delta_time%5B0:1024:%5D;/gt3l_sea_ice_segments_latitude%5B0:1024:%5D;/gt3l_sea_ice_segments_longitude%5B0:1024:%5D;/gt3l_sea_ice_segments_delta_time%5B0:1024:%5D;/gt2r_sea_ice_segments_latitude%5B0:1024:%5D;/gt2r_sea_ice_segments_longitude%5B0:1024:%5D;/gt2r_sea_ice_segments_delta_time%5B0:1024:%5D;/gt2l_sea_ice_segments_latitude%5B0:1024:%5D;/gt2l_sea_ice_segments_longitude%5B0:1024:%5D;/gt2l_sea_ice_segments_delta_time%5B0:1024:%5D;/gt1r_sea_ice_segments_latitude%5B0:1024:%5D;/gt1r_sea_ice_segments_longitude%5B0:1024:%5D;/gt1r_sea_ice_segments_delta_time%5B0:1024:%5D;/gt1l_sea_ice_segments_latitude%5B0:1024:%5D;/gt1l_sea_ice_segments_longitude%5B0:1024:%5D;/gt1l_sea_ice_segments_delta_time%5B0:1024:%5D
+Connect (s),TTFB (s),Total time(s),Response size (bytes)
+0.197929,8.082961,8.561785,201740
+0.101498,7.723520,8.221480,201740
+0.100635,8.044144,8.509906,201740
+0.101153,7.689507,8.114107,201740
+0.101224,4.367903,4.947148,201740
+0.100698,4.586858,5.029206,201740
+0.101455,5.101240,5.688040,201740
+0.100542,7.337848,7.870224,201740
+0.197162,4.996024,5.427841,201740
+0.198039,5.296678,6.408264,201740
+0.101216,4.726061,5.214584,201740
+0.103748,5.124862,5.535798,201740
+0.100847,4.992370,5.489991,201740
+0.100680,5.153681,5.665414,201740
+0.103503,4.677788,5.226224,201740
+0.099995,4.947931,5.448819,201740
+0.100159,4.643213,5.192743,201740
+0.101297,5.175887,5.680794,201740
+0.100738,4.763211,5.245367,201740
+0.197496,5.273234,5.736567,201740

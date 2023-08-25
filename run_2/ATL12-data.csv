@@ -1,0 +1,23 @@
+
+Request,ATL12-response.dap,https://opendap.uat.earthdata.nasa.gov/collections/C1241426998-NSIDC_CUAT/granules/ATL12_20200101002212_00810601_005_02.h5.dap?dap4.ce=/orbit_info_rgt;/orbit_info_crossing_time;/gt3r_ssh_segments_latitude%5B0:8:%5D;/gt3r_ssh_segments_longitude%5B0:8:%5D;/gt3r_ssh_segments_delta_time%5B0:8:%5D;/gt3l_ssh_segments_latitude%5B0:8:%5D;/gt3l_ssh_segments_longitude%5B0:8:%5D;/gt3l_ssh_segments_delta_time%5B0:8:%5D;/gt2r_ssh_segments_latitude%5B0:8:%5D;/gt2r_ssh_segments_longitude%5B0:8:%5D;/gt2r_ssh_segments_delta_time%5B0:8:%5D;/gt2l_ssh_segments_latitude%5B0:8:%5D;/gt2l_ssh_segments_longitude%5B0:8:%5D;/gt2l_ssh_segments_delta_time%5B0:8:%5D;/gt1r_ssh_segments_latitude%5B0:8:%5D;/gt1r_ssh_segments_longitude%5B0:8:%5D;/gt1r_ssh_segments_delta_time%5B0:8:%5D;/gt1l_ssh_segments_latitude%5B0:8:%5D;/gt1l_ssh_segments_longitude%5B0:8:%5D;/gt1l_ssh_segments_delta_time%5B0:8:%5D
+Connect (s),TTFB (s),Total time(s),Response size (bytes)
+0.197610,7.940584,8.713717,394709
+0.100562,6.842303,7.628468,394709
+0.100298,6.762748,7.570796,394709
+0.101047,6.394578,7.165914,394709
+0.100530,4.624787,5.434912,394709
+0.101709,4.427895,6.218390,394709
+0.255177,7.772295,10.777808,394709
+0.319608,4.550129,6.633003,394709
+0.252483,4.914317,7.236300,394709
+0.214927,5.298220,6.190063,394709
+0.239972,4.663601,6.203133,394709
+0.104871,4.614139,5.441740,394709
+0.100587,5.278389,6.081943,394709
+0.100276,4.671789,5.462649,394709
+0.100704,5.123972,5.909171,394709
+0.116561,5.129052,5.912692,394709
+0.100856,4.916310,5.701158,394709
+0.117383,4.687401,5.581203,394709
+0.100933,4.998873,5.816603,394709
+0.100433,4.528770,5.403579,394709
