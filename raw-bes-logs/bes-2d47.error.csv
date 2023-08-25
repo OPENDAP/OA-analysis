@@ -1,0 +1,6 @@
+1692897051,184,error,CredentialsManager::load_credentials() - CredentialsManager config file /etc/bes/credentials.conf was specified but is not present.
+1692899472,184,error,ERROR: BES User Syntax Error: This dataset contains variables and/or attributes whose data types are not compatible with the 
+1692899617,184,error,ERROR: BES User Syntax Error: This dataset contains variables and/or attributes whose data types are not compatible with the 
+1692900386,184,error,ERROR: BES User Syntax Error: This dataset contains variables and/or attributes whose data types are not compatible with the 
+1692899656,22196,error,CredentialsManager::load_credentials() - CredentialsManager config file /etc/bes/credentials.conf was specified but is not present.
+1692900017,22196,error,ERROR: BES User Syntax Error: This dataset contains variables and/or attributes whose data types are not compatible with the 

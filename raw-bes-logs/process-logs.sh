@@ -9,9 +9,10 @@
 # basic stats
 
 echo "Total lines, $(wc -l $1)"
+
 echo "Error lines, $(grep '|error|' $1 | wc -l)"
-echo "Request lines, $(grep '|request|' $1 | wc -l)"
 echo "Info lines, $(grep '|info|' $1 | wc -l)"
+echo "Request  lines, $(grep '|request|' $1 | wc -l)"
 echo "Timing lines, $(grep '|timing|' $1 | wc -l)"
 
 # Split into four sub logs, error, request, info and timing.
@@ -19,6 +20,6 @@ echo "Timing lines, $(grep '|timing|' $1 | wc -l)"
 # Sort those by PID and then 
 
 grep '|error|' $1 | sed 's@|&|@,@g' | sort --numeric-sort --field-separator=, --key=2 > $2.error.csv
-grep '|request|' $1 | sed 's@|&|@,@g' | sort --numeric-sort --field-separator=, --key=2 > $2.request.csv
 grep '|info|' $1 | sed 's@|&|@,@g' | sort --numeric-sort --field-separator=, --key=2 > $2.info.csv
-grep '|timing|' $1 | sed 's@|&|@,@g' | sort --numeric-sort --field-separator=, --key=2 > $2.timing.csv
+grep '|request|' $1 | sed 's@|&|@,@g' | sort --numeric-sort --field-separator=, --key=2 > $2.request.csv
+grep '|timing|' $1 | sed 's@|&|@,@g' | sort --numeric-sort --field-separator=, --key=2 --key=7> $2.timing.csv
