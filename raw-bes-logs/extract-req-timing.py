@@ -43,19 +43,31 @@ def filter_groups_of_lines(lines):
     return groups
 
 
-# Read data into a list, saving only the lines needed
+def get_request_groups():
+    """
+    Read information from the timing data CSV file, extracting the 'useful' lines.
+    Then extract from that information those groups of lines that correspond to
+    requests for DAP4 data responses. From those, choose lines that hold information
+    about key aspects of the requests such as the total time, the time spent working
+    with CMR, with TEA, accessing the DMR and reading & transmitting the data.
 
-useful_lines = []   # holds the lines that are useful
+    Store the lines for each request in a list and then each of those lists in a parent
+    list.
+    """
+    useful_lines = []   # holds the lines that are useful
 
-with open(filtered_timing_data, 'r+') as f:
-    for line in f.readlines():
-        if line_appears_useful(line):
-            useful_lines.append(line)
+    with open(filtered_timing_data, 'r+') as f:
+        for line in f.readlines():
+            line = line.strip()
+            if line_appears_useful(line):
+                useful_lines.append(line)
 
-groups = filter_groups_of_lines(useful_lines)
+    groups = filter_groups_of_lines(useful_lines)
+    return groups
 
 
+groups = get_request_groups()
 for group in groups:
     for line in group:
-        print(line, end='\n')
-    print('---------------------------\n')
+        print(line)
+    print('---------------------------')
