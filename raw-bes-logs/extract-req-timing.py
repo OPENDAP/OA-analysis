@@ -66,8 +66,66 @@ def get_request_groups():
     return groups
 
 
+MILLION = 1000000
+# info in parsed timing log line
+COMMAND = 10
+TRUE_START = 6
+ELAPSED = 4
+TIME_STAMP = 0
+
+
+def print_timing_data(groups):
+    # 'start' is a time stamp and can be used to join with information in the 'request' csv file
+    # 'granule' is the granule's DMR++ that was used
+    # cmr, dmrpp, signed_url, and transmit are the times in seconds for those activities
+    # cmr: Get the true URL for the given 'restified' URL
+    # dmrpp: Get the DMR++ file used to read the data
+    # signed_url: Use TEA to get a signed URL for use with S3
+    # transmit: Actual time to read from S3 and send to the remote client
+    print(f"start, granule, total, cmr, dmrpp, signed_url, transmit")
+
+    for group in groups:
+        start = "-"
+        granule = "-"
+        total = "-"
+        cmr = "-"
+        dmrpp = "-"
+        signed_url = "-"
+        transmit = "-"
+
+        for cmd_info in group:
+            cmd_info = cmd_info.split(',')
+            # From 'BESServerHandler::execute get start time and total time duration
+            if 'BESServerHandler::execute' in cmd_info[COMMAND]:
+                start = int(int(cmd_info[TRUE_START]) / MILLION)
+                total = int(cmd_info[ELAPSED]) / MILLION
+
+            # From 'RemoteResource::get_url() - source url: https://cmr' get CMR time
+            elif 'RemoteResource::get_url()' in cmd_info[COMMAND] and 'cmr' in cmd_info[COMMAND]:
+                cmr = int(cmd_info[ELAPSED]) / MILLION
+
+            # From 'RemoteResource::get_url() - source url: https://data...' get DMR++ fetch time
+            elif 'RemoteResource::get_url()' in cmd_info[COMMAND] and 'dmrpp' in cmd_info[COMMAND]:
+                dmrpp = int(cmd_info[ELAPSED]) / MILLION
+                granule = cmd_info[COMMAND].split(' ')[4].split('/')[-1]
+
+            # From 'transmitting' get time to read and transmit the data
+            elif 'transmitting' in cmd_info[COMMAND]:
+                transmit = int(cmd_info[ELAPSED]) / MILLION
+
+            # From CurlUtils::retrieve_effective_url() get the time to get a signed URL for S3
+            elif 'CurlUtils::retrieve_effective_url()' in cmd_info[COMMAND]:
+                signed_url = int(cmd_info[ELAPSED]) / MILLION
+
+        if signed_url != "-":   # transmit includes signed_url time
+            transmit = round(transmit - signed_url, 6)
+        print(f"{start}, {granule}, {total}, {cmr}, {dmrpp}, {signed_url}, {transmit}")
+
+
 groups = get_request_groups()
-for group in groups:
-    for line in group:
-        print(line)
-    print('---------------------------')
+# for group in groups:
+#     for line in group:
+#         print(line)
+#     print('---------------------------')
+
+print_timing_data(groups)
