@@ -1,0 +1,23 @@
+
+Request,ATL06-response.dap,https://opendap.uat.earthdata.nasa.gov/collections/C1241426872-NSIDC_CUAT/granules/ATL06_20200101223747_00950603_005_01.h5.dap?dap4.ce=/orbit_info_rgt;/orbit_info_crossing_time;/gt3r_land_ice_segments_latitude%5B0:256:%5D;/gt3r_land_ice_segments_longitude%5B0:256:%5D;/gt3r_land_ice_segments_delta_time%5B0:256:%5D;/gt3l_land_ice_segments_latitude%5B0:256:%5D;/gt3l_land_ice_segments_longitude%5B0:256:%5D;/gt3l_land_ice_segments_delta_time%5B0:256:%5D;/gt2r_land_ice_segments_latitude%5B0:256:%5D;/gt2r_land_ice_segments_longitude%5B0:256:%5D;/gt2r_land_ice_segments_delta_time%5B0:256:%5D;/gt2l_land_ice_segments_latitude%5B0:256:%5D;/gt2l_land_ice_segments_longitude%5B0:256:%5D;/gt2l_land_ice_segments_delta_time%5B0:256:%5D;/gt1r_land_ice_segments_latitude%5B0:256:%5D;/gt1r_land_ice_segments_longitude%5B0:256:%5D;/gt1r_land_ice_segments_delta_time%5B0:256:%5D;/gt1l_land_ice_segments_latitude%5B0:256:%5D;/gt1l_land_ice_segments_longitude%5B0:256:%5D;/gt1l_land_ice_segments_delta_time%5B0:256:%5D
+Connect (s),TTFB (s),Total time(s),Response size (bytes)
+0.006241,6.208752,6.220045,198128
+0.006991,6.381430,6.408917,198128
+0.006586,4.206018,4.219655,198128
+0.006756,6.822304,6.848674,198128
+0.007145,6.209082,6.220469,198128
+0.006663,4.206597,4.219671,198128
+0.006680,6.208673,6.221451,198128
+0.007479,4.206171,4.219911,198128
+0.006744,4.206356,4.219958,198128
+0.006425,4.206321,4.217663,198128
+0.007852,4.207686,4.220502,198128
+0.028217,4.227774,4.239011,198128
+0.006245,4.205925,4.216961,198128
+0.006430,4.206080,4.216884,198128
+0.006443,4.207045,4.218049,198128
+0.011804,4.210970,4.222572,198128
+0.006385,4.206031,4.217170,198128
+0.008044,4.207441,4.220175,198128
+0.007134,4.205795,4.219728,198128
+0.006393,4.205835,4.218744,198128

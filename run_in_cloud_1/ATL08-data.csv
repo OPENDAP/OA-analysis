@@ -1,0 +1,23 @@
+
+Request,ATL08-response.dap,https://opendap.uat.earthdata.nasa.gov/collections/C1241426907-NSIDC_CUAT/granules/ATL08_20200101145654_00900605_005_01.h5.dap?dap4.ce=/orbit_info_rgt;/orbit_info_crossing_time;/gt3r_land_segments_latitude%5B0:64:%5D;/gt3r_land_segments_longitude%5B0:64:%5D;/gt3r_land_segments_delta_time%5B0:64:%5D;/gt3l_land_segments_latitude%5B0:64:%5D;/gt3l_land_segments_longitude%5B0:64:%5D;/gt3l_land_segments_delta_time%5B0:64:%5D;/gt2r_land_segments_latitude%5B0:64:%5D;/gt2r_land_segments_longitude%5B0:64:%5D;/gt2r_land_segments_delta_time%5B0:64:%5D;/gt2l_land_segments_latitude%5B0:64:%5D;/gt2l_land_segments_longitude%5B0:64:%5D;/gt2l_land_segments_delta_time%5B0:64:%5D;/gt1r_land_segments_latitude%5B0:64:%5D;/gt1r_land_segments_longitude%5B0:64:%5D;/gt1r_land_segments_delta_time%5B0:64:%5D;/gt1l_land_segments_latitude%5B0:64:%5D;/gt1l_land_segments_longitude%5B0:64:%5D;/gt1l_land_segments_delta_time%5B0:64:%5D
+Connect (s),TTFB (s),Total time(s),Response size (bytes)
+0.010368,6.625950,6.649179,172848
+0.006386,6.208043,6.219422,172848
+0.006592,6.207887,6.215899,172848
+0.006514,6.208252,6.220977,172848
+0.006794,6.208151,6.219586,172848
+0.022967,3.125868,3.157936,172848
+0.006719,3.115846,3.145195,172848
+0.006461,6.207946,6.219534,172848
+0.006350,4.206104,4.216698,172848
+0.006660,4.206019,4.217491,172848
+0.007561,3.153420,3.183300,172848
+0.006625,4.205697,4.216784,172848
+0.006184,4.206130,4.214440,172848
+0.007307,6.207860,6.219494,172848
+0.006980,3.076305,3.096327,172848
+0.022968,3.093296,3.115604,172848
+0.006577,4.206065,4.214349,172848
+0.006548,3.170221,3.195959,172848
+0.006515,4.205503,4.216681,172848
+0.006404,4.206383,4.217615,172848
