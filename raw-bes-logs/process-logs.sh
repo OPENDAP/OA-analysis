@@ -17,7 +17,7 @@ echo "Timing lines, $(grep '|timing|' $1 | wc -l)"
 
 # Split into four sub logs, error, request, info and timing.
 # Turn them into CSV files
-# Sort those by PID and then 
+# Sort those by PID, and for timing, sort by start time.
 
 grep '|error|' $1 | sed 's@|&|@,@g' | sort --numeric-sort --field-separator=, --key=2 > $2.error.csv
 grep '|info|' $1 | sed 's@|&|@,@g' | sort --numeric-sort --field-separator=, --key=2 > $2.info.csv

@@ -104,11 +104,11 @@ def build_timing_data_records(groups):
     for group in groups:
         key = "-"
         granule = "-"
-        total = "0"
-        cmr = "0"
-        dmrpp = "0"
-        signed_url = "0"
-        transmit = "0"
+        total = "-"
+        cmr = "-"
+        dmrpp = "-"
+        signed_url = "-"
+        transmit = "-"
 
         for cmd_info in group:
             cmd_info = cmd_info.split(',')
@@ -198,6 +198,18 @@ def join_timing_and_request_data(timing_data, request_data):
     return joined_data
 
 
+def print_timing_data(timing_data):
+    for timing_record in timing_data:
+        print(*timing_record, sep=", ")
+
+
+def print_request_data(request_data):
+    for key in request_data.keys():
+        request_record = request_data[key]
+        print(f"{key}, ", end="")
+        print(*request_record, sep=", ")
+
+
 def main():
     import argparse
     parser = argparse.ArgumentParser(description="Parse and combine information from the 'timing' and 'requests'"
@@ -213,6 +225,12 @@ def main():
 
     timing_data = build_timing_data_records(get_timing_groups(filtered_timing_data))
     request_data = get_request_data(filtered_request_data)
+
+    if args.verbose:
+        print_timing_data(timing_data)
+        print("------------------------")
+        print_request_data(request_data)
+
     request_timing_records = join_timing_and_request_data(timing_data, request_data)
 
     print(f"key, granule, total (s), cmr (s), dmrpp (s), signed_url (s), transmit (s), BES response, BES path, DAP CE")

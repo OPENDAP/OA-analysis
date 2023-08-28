@@ -1,7 +1,18 @@
 
-Notes These two log files were gathered after the 8 URLs supplied by
-Kevin Bean were accessed 20 times each. The accesses were run from a
-remote desktop machine, not a machine in the cloud. 
+# Notes
+
+## To process the log data
+
+* Run the `process-log.sh` script with the raw BES log as input. Parameter $2 is the prefix for the putput files
+* Run the `extract-req-timing.py` script using the `.timing.csv` and `.request.csv` files from above as input.
+* Import the output from `extract-req-timing.py` to a spreadsheet.
+* Make sense of the data...
+
+## About the raw BES log files
+
+These two log files (bes-2d47.log and bes-72bf.log) were gathered after 
+the 8 URLs supplied by Kevin Bean were accessed 20 times each. The 
+accesses were run from a remote desktop machine, not a machine in the cloud. 
 
 The bes-2d47 EC2 instance was about 2 hours old and the log is much
 smaller than the bes-72bf log that was over a day old.
