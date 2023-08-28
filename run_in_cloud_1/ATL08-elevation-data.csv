@@ -1,0 +1,23 @@
+
+Request,ATL08-elevation-response.dap,https://opendap.uat.earthdata.nasa.gov/collections/C1241426907-NSIDC_CUAT/granules/ATL08_20200101145654_00900605_005_01.h5.dap?dap4.ce=/orbit_info_rgt;/orbit_info_crossing_time;/gt3r_land_segments_latitude%5B0:8:%5D;/gt3r_land_segments_longitude%5B0:8:%5D;/gt3r_land_segments_terrain_h_te_best_fit%5B0:8:%5D;/gt3r_land_segments_canopy_h_canopy%5B0:8:%5D;/gt3r_land_segments_delta_time%5B0:8:%5D;/gt3l_land_segments_latitude%5B0:8:%5D;/gt3l_land_segments_longitude%5B0:8:%5D;/gt3l_land_segments_terrain_h_te_best_fit%5B0:8:%5D;/gt3l_land_segments_canopy_h_canopy%5B0:8:%5D;/gt3l_land_segments_delta_time%5B0:8:%5D;/gt2r_land_segments_latitude%5B0:8:%5D;/gt2r_land_segments_longitude%5B0:8:%5D;/gt2r_land_segments_terrain_h_te_best_fit%5B0:8:%5D;/gt2r_land_segments_canopy_h_canopy%5B0:8:%5D;/gt2r_land_segments_delta_time%5B0:8:%5D;/gt2l_land_segments_latitude%5B0:8:%5D;/gt2l_land_segments_longitude%5B0:8:%5D;/gt2l_land_segments_terrain_h_te_best_fit%5B0:8:%5D;/gt2l_land_segments_canopy_h_canopy%5B0:8:%5D;/gt2l_land_segments_delta_time%5B0:8:%5D;/gt1r_land_segments_latitude%5B0:8:%5D;/gt1r_land_segments_longitude%5B0:8:%5D;/gt1r_land_segments_terrain_h_te_best_fit%5B0:8:%5D;/gt1r_land_segments_canopy_h_canopy%5B0:8:%5D;/gt1r_land_segments_delta_time%5B0:8:%5D;/gt1l_land_segments_latitude%5B0:8:%5D;/gt1l_land_segments_longitude%5B0:8:%5D;/gt1l_land_segments_terrain_h_te_best_fit%5B0:8:%5D;/gt1l_land_segments_canopy_h_canopy%5B0:8:%5D;/gt1l_land_segments_delta_time%5B0:8:%5D
+Connect (s),TTFB (s),Total time(s),Response size (bytes)
+0.007777,4.207542,4.226022,319999
+0.006332,4.205719,4.223351,319999
+0.022478,4.221715,4.238379,319999
+0.006626,4.205420,4.224582,319999
+0.212860,4.412099,4.428738,319999
+0.006590,4.206072,4.224852,319999
+0.006584,4.206223,4.222984,319999
+0.007287,4.207284,4.224874,319999
+0.006292,4.205505,4.222435,319999
+0.006802,4.206018,4.227256,319999
+0.006712,4.205648,4.227120,319999
+0.006551,4.205818,4.223137,319999
+0.006683,4.206352,4.223092,319999
+0.006355,4.205806,4.222277,319999
+0.007214,4.206487,4.222739,319999
+0.006556,4.206298,4.227270,319999
+0.023073,4.222988,4.240805,319999
+0.006413,4.240738,4.272572,319999
+0.007229,4.206736,4.224997,319999
+0.006367,4.206107,4.224291,319999
