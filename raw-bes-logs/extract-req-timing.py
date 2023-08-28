@@ -104,11 +104,11 @@ def build_timing_data_records(groups):
     for group in groups:
         key = "-"
         granule = "-"
-        total = "-"
-        cmr = "-"
-        dmrpp = "-"
-        signed_url = "-"
-        transmit = "-"
+        total = "0"
+        cmr = "0"
+        dmrpp = "0"
+        signed_url = "0"
+        transmit = "0"
 
         for cmd_info in group:
             cmd_info = cmd_info.split(',')
