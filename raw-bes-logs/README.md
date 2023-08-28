@@ -12,10 +12,10 @@ Here's what that looks like in practice:
 ```
 edamame:raw-bes-logs jimg$ ./process-logs.sh bes-in-cloud-72bf.log bes-in-cloud-72bf
 Total lines,    18558 bes-in-cloud-72bf.log
-Error lines,      449
+Error lines,    449
 Info lines,     1015
-Request  lines,      516
-Timing lines,    16844
+Request  lines, 516
+Timing lines,   16844
 edamame:raw-bes-logs jimg$ ./extract-req-timing.py -t bes-in-cloud-72bf.timing.csv \
     -r bes-in-cloud-72bf.request.csv > bes-in-cloud-72bf.performance-data.csv
 ```

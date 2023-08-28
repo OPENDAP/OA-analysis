@@ -1,0 +1,831 @@
+1692895876,61,info,DmrppRequestHandler::DmrppRequestHandler() - Concurrent Compute Threads: Enabled. max_compute_threads: 512
+1692895876,61,info,DmrppRequestHandler::DmrppRequestHandler() - Concurrent Transfer Threads: Enabled. max_transfer_threads: 16
+1692895876,61,info,DmrppRequestHandler::DmrppRequestHandler() - Contiguous Concurrency Threshold: 2097152 bytes.
+1692895876,63,info,DmrppRequestHandler::DmrppRequestHandler() - Concurrent Compute Threads: Enabled. max_compute_threads: 512
+1692895876,63,info,DmrppRequestHandler::DmrppRequestHandler() - Concurrent Transfer Threads: Enabled. max_transfer_threads: 16
+1692895876,63,info,DmrppRequestHandler::DmrppRequestHandler() - Contiguous Concurrency Threshold: 2097152 bytes.
+1692897064,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.gesdisc.uat.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGHH.06/2021/273/3B-HHR.MS.MRG.3IMERG.20210930-S000000-E002959.0000.V06B.HDF5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://gesdisc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/GPM_L3/GPM_3IMERGHH.06/2021/273/3B-HHR.MS.MRG.3IMERG.20210930-S000000-E002959.0000.V06B.HDF5?A-userid=uuidev'(trusted)
+1692897459,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.gesdisc.uat.earthdata.nasa.gov/data/MERRA2/M2T1NXSLV.5.12.4/2021/08/MERRA2_400.tavg1_2d_slv_Nx.20210831.nc4(trusted)' CURLINFO_EFFECTIVE_URL: 'https://gesdisc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/MERRA2/M2T1NXSLV.5.12.4/2021/08/MERRA2_400.tavg1_2d_slv_Nx.20210831.nc4?A-userid=uuidev'(trusted)
+1692899479,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://archive.podaac.sit.earthdata.nasa.gov/podaac-sit-cumulus-protected/H09-AHI-L3C-ACSPO-v2.90/20230821130000-STAR-L3C_GHRSST-SSTsubskin-AHI_H09-ACSPO_V2.90-v02.0-fv01.0.nc(trusted)' CURLINFO_EFFECTIVE_URL: 'https://podaac-sit-cumulus-protected.s3.us-west-2.amazonaws.com/H09-AHI-L3C-ACSPO-v2.90/20230821130000-STAR-L3C_GHRSST-SSTsubskin-AHI_H09-ACSPO_V2.90-v02.0-fv01.0.nc?A-userid=podaaccloud'(trusted)
+1692899511,184,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1692899512,184,info,BESUtil::file_to_stream() - Sent 36073389 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_7Yq8IZ_#20230821130000-STAR-L3C_GHRSST-SSTsubskin-AHI_H09-ACSPO_V2.90-v02.0-fv01.0.nc.dmrpp_vNo0uO'. 
+1692899624,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://archive.podaac.sit.earthdata.nasa.gov/podaac-sit-cumulus-protected/H09-AHI-L2P-ACSPO-v2.90/20230821140000-STAR-L2P_GHRSST-SSTsubskin-AHI_H09-ACSPO_V2.90-v02.0-fv01.0.nc(trusted)' CURLINFO_EFFECTIVE_URL: 'https://podaac-sit-cumulus-protected.s3.us-west-2.amazonaws.com/H09-AHI-L2P-ACSPO-v2.90/20230821140000-STAR-L2P_GHRSST-SSTsubskin-AHI_H09-ACSPO_V2.90-v02.0-fv01.0.nc?A-userid=podaaccloud'(trusted)
+1692899635,184,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1692899636,184,info,BESUtil::file_to_stream() - Sent 45612251 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_pQkd6j_#20230821140000-STAR-L2P_GHRSST-SSTsubskin-AHI_H09-ACSPO_V2.90-v02.0-fv01.0.nc.dmrpp_A3lsqM'. 
+1692899673,184,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1692899674,184,info,BESUtil::file_to_stream() - Sent 36073389 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_EUVKiD_#20230821130000-STAR-L3C_GHRSST-SSTsubskin-AHI_H09-ACSPO_V2.90-v02.0-fv01.0.nc.dmrpp_Njr0Hb'. 
+1692899766,184,info,request size: 738568KB,memory used by process: 4577876KB
+1692900055,184,info,BESUtil::file_to_stream() - Sent 36073389 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_OkPrf6_#20230821130000-STAR-L3C_GHRSST-SSTsubskin-AHI_H09-ACSPO_V2.90-v02.0-fv01.0.nc.dmrpp_268l89'. 
+1692900055,184,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1692900450,184,info,request size: 738568KB,memory used by process: 7643008KB
+1692903048,184,info,request size: 17KB,memory used by process: 7643008KB
+1692903050,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL06/005/2020/01/01/ATL06_20200101223747_00950603_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL06/005/2020/01/01/ATL06_20200101223747_00950603_005_01.h5?A-userid=jhrguat'(trusted)
+1692903070,184,info,request size: 17KB,memory used by process: 7643008KB
+1692903089,184,info,request size: 17KB,memory used by process: 7643008KB
+1692903106,184,info,request size: 17KB,memory used by process: 7643008KB
+1692903127,184,info,request size: 17KB,memory used by process: 7643008KB
+1692903142,184,info,request size: 17KB,memory used by process: 7643008KB
+1692903152,184,info,request size: 17KB,memory used by process: 7643008KB
+1692903223,184,info,request size: 41KB,memory used by process: 7643008KB
+1692903226,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL07/005/2020/01/01/ATL07-01_20200101015629_00820601_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL07/005/2020/01/01/ATL07-01_20200101015629_00820601_005_01.h5?A-userid=jhrguat'(trusted)
+1692903249,184,info,request size: 41KB,memory used by process: 7643008KB
+1692903276,184,info,request size: 41KB,memory used by process: 7643008KB
+1692903299,184,info,request size: 11KB,memory used by process: 7643008KB
+1692903301,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL08/005/2020/01/01/ATL08_20200101145654_00900605_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL08/005/2020/01/01/ATL08_20200101145654_00900605_005_01.h5?A-userid=jhrguat'(trusted)
+1692903362,184,info,request size: 11KB,memory used by process: 7643008KB
+1692903385,184,info,request size: 11KB,memory used by process: 7643008KB
+1692903394,184,info,request size: 11KB,memory used by process: 7643008KB
+1692903435,184,info,request size: 20KB,memory used by process: 7643008KB
+1692903437,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL10/005/2020/01/01/ATL10-01_20200101002212_00810601_005_02.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL10/005/2020/01/01/ATL10-01_20200101002212_00810601_005_02.h5?A-userid=jhrguat'(trusted)
+1692903447,184,info,request size: 20KB,memory used by process: 7643008KB
+1692903457,184,info,request size: 20KB,memory used by process: 7643008KB
+1692903489,184,info,request size: 20KB,memory used by process: 7643008KB
+1692903504,184,info,request size: 20KB,memory used by process: 7643008KB
+1692903550,184,info,request size: 203KB,memory used by process: 7643008KB
+1692903552,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL12/005/2020/01/ATL12_20200101002212_00810601_005_02.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL12/005/2020/01/ATL12_20200101002212_00810601_005_02.h5?A-userid=jhrguat'(trusted)
+1692903581,184,info,request size: 203KB,memory used by process: 7643008KB
+1692903618,184,info,request size: 203KB,memory used by process: 7643008KB
+1692903636,184,info,request size: 203KB,memory used by process: 7643008KB
+1692903677,184,info,request size: 203KB,memory used by process: 7643008KB
+1692903692,184,info,request size: 43KB,memory used by process: 7643008KB
+1692903694,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL13/005/2020/01/ATL13_20200101002212_00810601_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL13/005/2020/01/ATL13_20200101002212_00810601_005_01.h5?A-userid=jhrguat'(trusted)
+1692903727,184,info,request size: 43KB,memory used by process: 7643008KB
+1692903746,184,info,request size: 43KB,memory used by process: 7643008KB
+1692903781,184,info,request size: 43KB,memory used by process: 7643008KB
+1692903791,184,info,request size: 43KB,memory used by process: 7643008KB
+1692903807,184,info,request size: 43KB,memory used by process: 7643008KB
+1692903834,184,info,request size: 136KB,memory used by process: 7643008KB
+1692903851,184,info,request size: 136KB,memory used by process: 7643008KB
+1692903868,184,info,request size: 136KB,memory used by process: 7643008KB
+1692903895,184,info,request size: 136KB,memory used by process: 7643008KB
+1692903911,184,info,request size: 136KB,memory used by process: 7643008KB
+1692903926,184,info,request size: 136KB,memory used by process: 7643008KB
+1692903937,184,info,request size: 4955KB,memory used by process: 7643008KB
+1692903939,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL03/005/2020/01/01/ATL03_20200101145654_00900605_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL03/005/2020/01/01/ATL03_20200101145654_00900605_005_01.h5?A-userid=jhrguat'(trusted)
+1692903984,184,info,request size: 4955KB,memory used by process: 7643008KB
+1692904012,184,info,request size: 4955KB,memory used by process: 7643008KB
+1692904038,184,info,request size: 4955KB,memory used by process: 7643008KB
+1692904082,184,info,request size: 4955KB,memory used by process: 7643008KB
+1692904200,184,info,request size: 4955KB,memory used by process: 7643008KB
+1692904267,184,info,request size: 324KB,memory used by process: 7643008KB
+1692904283,184,info,request size: 324KB,memory used by process: 7643008KB
+1692904293,184,info,request size: 324KB,memory used by process: 7643008KB
+1692904314,184,info,request size: 324KB,memory used by process: 7643008KB
+1692904340,184,info,request size: 324KB,memory used by process: 7643008KB
+1692904350,184,info,request size: 324KB,memory used by process: 7643008KB
+1692909870,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://archive.podaac.sit.earthdata.nasa.gov/podaac-sit-cumulus-protected/H09-AHI-L3C-ACSPO-v2.90/20230821130000-STAR-L3C_GHRSST-SSTsubskin-AHI_H09-ACSPO_V2.90-v02.0-fv01.0.nc(trusted)' CURLINFO_EFFECTIVE_URL: 'https://podaac-sit-cumulus-protected.s3.us-west-2.amazonaws.com/H09-AHI-L3C-ACSPO-v2.90/20230821130000-STAR-L3C_GHRSST-SSTsubskin-AHI_H09-ACSPO_V2.90-v02.0-fv01.0.nc?A-userid=podaaccloud'(trusted)
+1692909903,184,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1692909904,184,info,BESUtil::file_to_stream() - Sent 36073389 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_lWnw5D_#20230821130000-STAR-L3C_GHRSST-SSTsubskin-AHI_H09-ACSPO_V2.90-v02.0-fv01.0.nc.dmrpp_aUFDcf'. 
+1692911383,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.gesdisc.uat.earthdata.nasa.gov/data/MERRA2/M2T1NXSLV.5.12.4/2021/08/MERRA2_400.tavg1_2d_slv_Nx.20210831.nc4(trusted)' CURLINFO_EFFECTIVE_URL: 'https://gesdisc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/MERRA2/M2T1NXSLV.5.12.4/2021/08/MERRA2_400.tavg1_2d_slv_Nx.20210831.nc4?A-userid=uuidev'(trusted)
+1692920352,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://archive.podaac.sit.earthdata.nasa.gov/podaac-sit-cumulus-protected/SAILDRONE_ARCTIC_2022/saildrone-gen_6-arctic_misst_2022_adcp-sd1041-20220618T020000-20220817T235000-5_minutes-v1.nc(trusted)' CURLINFO_EFFECTIVE_URL: 'https://podaac-sit-cumulus-protected.s3.us-west-2.amazonaws.com/SAILDRONE_ARCTIC_2022/saildrone-gen_6-arctic_misst_2022_adcp-sd1041-20220618T020000-20220817T235000-5_minutes-v1.nc?A-userid=celiaouuat'(trusted)
+1692926141,184,info,request size: 5146KB,memory used by process: 7643008KB
+1692926143,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://archive.podaac.sit.earthdata.nasa.gov/podaac-sit-cumulus-protected/SAILDRONE_ARCTIC_2022/saildrone-gen_6-arctic_misst_2022-SBE56-sd1041-20220618T000000-20220817T590000-v1.nc(trusted)' CURLINFO_EFFECTIVE_URL: 'https://podaac-sit-cumulus-protected.s3.us-west-2.amazonaws.com/SAILDRONE_ARCTIC_2022/saildrone-gen_6-arctic_misst_2022-SBE56-sd1041-20220618T000000-20220817T590000-v1.nc?A-userid=podaaccloud'(trusted)
+1692926990,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://archive.podaac.sit.earthdata.nasa.gov/podaac-sit-cumulus-protected/SAILDRONE_ARCTIC_2022/saildrone-gen_6-arctic_misst_2022_adcp-sd1041-20220618T020000-20220817T235000-5_minutes-v1.nc(trusted)' CURLINFO_EFFECTIVE_URL: 'https://podaac-sit-cumulus-protected.s3.us-west-2.amazonaws.com/SAILDRONE_ARCTIC_2022/saildrone-gen_6-arctic_misst_2022_adcp-sd1041-20220618T020000-20220817T235000-5_minutes-v1.nc?A-userid=podaaccloud'(trusted)
+1692954025,184,info,request size: 0KB,memory used by process: 7643008KB
+1692954028,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL08/005/2020/01/02/ATL08_20200102084807_01010610_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL08/005/2020/01/02/ATL08_20200102084807_01010610_005_01.h5?A-userid=nsidc_ops'(trusted)
+1692963364,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.gesdisc.uat.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGHH.06/2021/273/3B-HHR.MS.MRG.3IMERG.20210930-S000000-E002959.0000.V06B.HDF5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://gesdisc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/GPM_L3/GPM_3IMERGHH.06/2021/273/3B-HHR.MS.MRG.3IMERG.20210930-S000000-E002959.0000.V06B.HDF5?A-userid=uuidev'(trusted)
+1692981761,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.gesdisc.uat.earthdata.nasa.gov/data/MERRA2/M2T1NXSLV.5.12.4/2021/08/MERRA2_400.tavg1_2d_slv_Nx.20210831.nc4(trusted)' CURLINFO_EFFECTIVE_URL: 'https://gesdisc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/MERRA2/M2T1NXSLV.5.12.4/2021/08/MERRA2_400.tavg1_2d_slv_Nx.20210831.nc4?A-userid=uuidev'(trusted)
+1692985731,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.gesdisc.uat.earthdata.nasa.gov/data/MERRA2/M2T1NXSLV.5.12.4/2021/08/MERRA2_400.tavg1_2d_slv_Nx.20210831.nc4(trusted)' CURLINFO_EFFECTIVE_URL: 'https://gesdisc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/MERRA2/M2T1NXSLV.5.12.4/2021/08/MERRA2_400.tavg1_2d_slv_Nx.20210831.nc4?A-userid=uuidev'(trusted)
+1692992383,184,info,Failed to locate '/usr/share/hyrax/data/csv/catalog.xml'
+1692992628,184,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/catalog.xml'
+1692992976,184,info,Failed to locate '/usr/share/hyrax/data/dmrpp/APIs/'
+1692992976,184,info,Failed to locate '/usr/share/hyrax/data/ugrids/APIs/'
+1692992977,184,info,Failed to locate '/usr/share/hyrax/data/hdf5/APIs/'
+1692992977,184,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/grids/APIs/'
+1692992978,184,info,Failed to locate '/usr/share/hyrax/data/nc/service/'
+1692992979,184,info,Failed to locate '/usr/share/hyrax/data/hdf5/service/'
+1692992979,184,info,Failed to locate '/usr/share/hyrax/data/stare/service/'
+1692992980,184,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/grids/service/'
+1692992981,184,info,Failed to locate '/usr/share/hyrax/data/ff/Service/'
+1692992981,184,info,Failed to locate '/usr/share/hyrax/data/nc/Service/'
+1692992982,184,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/dated/Service/'
+1692992984,184,info,Failed to locate '/usr/share/hyrax/data/nc/SERVICE/'
+1692992984,184,info,Failed to locate '/usr/share/hyrax/data/stare/SERVICE/'
+1692992985,184,info,Failed to locate '/usr/share/hyrax/data/ncml/dmrpp/SERVICE/'
+1692992986,184,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/dated/SERVICE/'
+1692992987,184,info,Failed to locate '/usr/share/hyrax/data/gdal/WebService/'
+1692992991,184,info,Failed to locate '/usr/share/hyrax/data/ncml/dmrpp/WebService/'
+1692992992,184,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/dated/WebService/'
+1692993033,184,info,Failed to locate '/usr/share/hyrax/data/dmrpp/ws/'
+1692993034,184,info,Failed to locate '/usr/share/hyrax/data/ff/ws/'
+1692993035,184,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/ws/'
+1692993037,184,info,Failed to locate '/usr/share/hyrax/data/WS/'
+1692993037,184,info,Failed to locate '/usr/share/hyrax/data/ugrids/WS/'
+1692993038,184,info,Failed to locate '/usr/share/hyrax/data/hdf5/WS/'
+1692993039,184,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/WS/'
+1692993040,184,info,Failed to locate '/usr/share/hyrax/wsdl/'
+1692993041,184,info,Failed to locate '/usr/share/hyrax/data/csv/wsdl/'
+1692993042,184,info,Failed to locate '/usr/share/hyrax/data/hdf4/wsdl/'
+1692993043,184,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/dmr-testsuite/wsdl/'
+1692993044,184,info,Failed to locate '/usr/share/hyrax/data/nc/WSDL/'
+1692993045,184,info,Failed to locate '/usr/share/hyrax/data/ncml/dmrpp/WSDL/'
+1692993046,184,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/grids/WSDL/'
+1692993100,184,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/D4-xml/catalog.xml'
+1692993103,184,info,Failed to locate '/usr/share/hyrax/data/nc/catalog.xml'
+1692993104,184,info,Failed to locate '/usr/share/hyrax/data/stare/catalog.xml'
+1692993110,184,info,Failed to locate '/usr/share/hyrax/data/csv/api.jsp'
+1692993110,184,info,Failed to locate '/usr/share/hyrax/data/gdal/api.jsp'
+1692993110,184,info,Failed to locate '/usr/share/hyrax/data/ncml/dmrpp/api.jsp'
+1692993112,184,info,Failed to locate '/usr/share/hyrax/data/ncml/service.jsp'
+1692993112,184,info,Failed to locate '/usr/share/hyrax/service.jsp'
+1692993113,184,info,Failed to locate '/usr/share/hyrax/data/hdf4/service.jsp'
+1692993113,184,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/grids/service.jsp'
+1692993114,184,info,Failed to locate '/usr/share/hyrax/data/gdal/ws.jsp'
+1692993114,184,info,Failed to locate '/usr/share/hyrax/data/stare/ws.jsp'
+1692993115,184,info,Failed to locate '/usr/share/hyrax/data/hdf4/ws.jsp'
+1692993116,184,info,Failed to locate '/usr/share/hyrax/catalog.xml'
+1692993130,184,info,Failed to locate '/usr/share/hyrax/data/csv/catalog.xml'
+1692993133,184,info,Failed to locate '/usr/share/hyrax/data/hdf5/catalog.xml'
+1692993358,184,info,Failed to locate '/usr/share/hyrax/data/ncml/dmrpp/catalog.xml'
+1692993373,184,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/dmr-testsuite/catalog.xml'
+1692993725,184,info,Failed to locate '/usr/share/hyrax/data/dmrpp/catalog.xml'
+1692993784,184,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/grids/catalog.xml'
+1692993797,184,info,Failed to locate '/usr/share/hyrax/data/csv/catalog.xml'
+1692993799,184,info,Failed to locate '/usr/share/hyrax/data/dapreader/catalog.xml'
+1692994051,184,info,Failed to locate '/usr/share/hyrax/data/ugrids/catalog.xml'
+1692994224,184,info,Failed to locate '/usr/share/hyrax/catalog.xml'
+1692994402,184,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/catalog.xml'
+1692994444,184,info,Failed to locate '/usr/share/hyrax/data/stare/catalog.xml'
+1692994462,184,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/D4-xml/catalog.xml'
+1692994671,184,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/catalog.xml'
+1692994881,184,info,Failed to locate '/usr/share/hyrax/data/ugrids/catalog.xml'
+1692995072,184,info,Failed to locate '/usr/share/hyrax/data/csv/catalog.xml'
+1692995078,184,info,Failed to locate '/usr/share/hyrax/data/ncml/dmrpp/catalog.xml'
+1692995149,184,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/grids/catalog.xml'
+1692995777,184,info,Failed to locate '/usr/share/hyrax/###4444#333 + #_QUALYS###/###8888#111 + #_QUALYS###'
+1692995777,184,info,Failed to locate '/usr/share/hyrax/data/dapreader/###4444#333 + #_QUALYS###/###8888#111 + #_QUALYS###/'
+1692995778,184,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/###4444#333 + #_QUALYS###/###8888#111 + #_QUALYS###/'
+1692995778,184,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/dated/###4444#333 + #_QUALYS###/###8888#111 + #_QUALYS###/'
+1692995781,184,info,Failed to locate '/usr/share/hyrax/catalog.xml'
+1692995782,184,info,Failed to locate '/usr/share/hyrax/data/ugrids/axis2-admin/login'
+1692995783,184,info,Failed to locate '/usr/share/hyrax/data/dapreader/axis2-admin/login'
+1692995783,184,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/grids/axis2-admin/login'
+1692995785,184,info,Failed to locate '/usr/share/hyrax/data/catalog.xml'
+1692995786,184,info,Failed to locate '/usr/share/hyrax/data/ncml/dmrpp/catalog.xml'
+1692995808,184,info,Failed to locate '/usr/share/hyrax/data/admin/'
+1692995809,184,info,Failed to locate '/usr/share/hyrax/data/dmrpp/admin/'
+1692995809,184,info,Failed to locate '/usr/share/hyrax/data/ncml/admin/'
+1692995810,184,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/dated/admin/'
+1692995811,184,info,Failed to locate '/usr/share/hyrax/data/ncml/adm/'
+1692995812,184,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/grids/adm/'
+1692995813,184,info,Failed to locate '/usr/share/hyrax/administration/'
+1692995814,184,info,Failed to locate '/usr/share/hyrax/data/ncml/administration/'
+1692995815,184,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/dated/administration/'
+1692995815,184,info,Failed to locate '/usr/share/hyrax/data/ncml/dmrpp/administration/'
+1692995819,184,info,Failed to locate '/usr/share/hyrax/data/nc/admin.jsp'
+1692995820,184,info,Failed to locate '/usr/share/hyrax/data/stare/admin.jsp'
+1692995822,184,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/admin.jsp'
+1692995823,184,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/dmr-testsuite/admin.jsp'
+1692995872,184,info,Failed to locate '/usr/share/hyrax/data/dmrpp/src/'
+1692995873,184,info,Failed to locate '/usr/share/hyrax/data/csv/src/'
+1692995873,184,info,Failed to locate '/usr/share/hyrax/data/hdf4/src/'
+1692995874,184,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/dated/src/'
+1692995876,184,info,Failed to locate '/usr/share/hyrax/common/'
+1692995877,184,info,Failed to locate '/usr/share/hyrax/data/csv/common/'
+1692995878,184,info,Failed to locate '/usr/share/hyrax/data/ff/common/'
+1692995878,184,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/common/'
+1692995880,184,info,Failed to locate '/usr/share/hyrax/config/'
+1692995881,184,info,Failed to locate '/usr/share/hyrax/data/hdf5/config/'
+1692995881,184,info,Failed to locate '/usr/share/hyrax/data/stare/config/'
+1692995883,184,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/grids/config/'
+1692995885,184,info,Failed to locate '/usr/share/hyrax/data/csv/css/'
+1692995886,184,info,Failed to locate '/usr/share/hyrax/data/hdf5/css/'
+1692995887,184,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/css/'
+1692995932,184,info,Failed to locate '/usr/share/hyrax/data/ncml/docs/'
+1692995932,184,info,Failed to locate '/usr/share/hyrax/data/ugrids/docs/'
+1692995934,184,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/dmr-testsuite/docs/'
+1692995935,184,info,Failed to locate '/usr/share/hyrax/data/external/'
+1692995936,184,info,Failed to locate '/usr/share/hyrax/data/ncml/dmrpp/external/'
+1692995937,184,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/dmr-testsuite/external/'
+1692995939,184,info,Failed to locate '/usr/share/hyrax/data/csv/history/'
+1692995940,184,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/history/'
+1692995941,184,info,Failed to locate '/usr/share/hyrax/include/'
+1692995942,184,info,Failed to locate '/usr/share/hyrax/data/nc/include/'
+1692995943,184,info,Failed to locate '/usr/share/hyrax/data/hdf5/include/'
+1692995944,184,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/include/'
+1692995946,184,info,Failed to locate '/usr/share/hyrax/data/gdal/includes/'
+1692995947,184,info,Failed to locate '/usr/share/hyrax/data/csv/includes/'
+1692995948,184,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/grids/includes/'
+1692995948,184,info,Failed to locate '/usr/share/hyrax/data/ncml/dmrpp/includes/'
+1692995949,184,info,Failed to locate '/usr/share/hyrax/js/'
+1692995951,184,info,Failed to locate '/usr/share/hyrax/data/ncml/js/'
+1692995953,184,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/js/'
+1692995991,184,info,Failed to locate '/usr/share/hyrax/data/lib/'
+1692995992,184,info,Failed to locate '/usr/share/hyrax/data/ugrids/lib/'
+1692995993,184,info,Failed to locate '/usr/share/hyrax/data/ff/lib/'
+1692995995,184,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/grids/lib/'
+1692995999,184,info,Failed to locate '/usr/share/hyrax/data/test.jsp'
+1692996001,184,info,Failed to locate '/usr/share/hyrax/data/ff/test.jsp'
+1692996002,184,info,Failed to locate '/usr/share/hyrax/data/ncml/dmrpp/test.jsp'
+1692996003,184,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/dmr-testsuite/test.jsp'
+1692996010,184,info,Failed to locate '/usr/share/hyrax/data/hdf5/bin/'
+1692996011,184,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/grids/bin/'
+1692996117,184,info,Failed to locate '/usr/share/hyrax/500page.jsp'
+1692996138,184,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/dmr-testsuite/catalog.xml'
+1692996223,184,info,Failed to locate '/usr/share/hyrax/data/csv/catalog.xml'
+1692996228,184,info,Failed to locate '/usr/share/hyrax/data/hdf4/catalog.xml'
+1692996256,184,info,Failed to locate '/usr/share/hyrax/data/dapreader/catalog.xml'
+1693010068,184,info,Failed to locate '/usr/share/hyrax/ngap/collections/C1238392622-EEDTEST/granules/f16_ssmis_20210425v7.nc'
+1693010070,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://harmony.uat.earthdata.nasa.gov/service-results/harmony-uat-eedtest-data/C1238392622-EEDTEST/f16_ssmis_20210425v7.nc(trusted)' CURLINFO_EFFECTIVE_URL: 'https://harmony-uat-eedtest-data.s3.us-west-2.amazonaws.com/C1238392622-EEDTEST/f16_ssmis_20210425v7.nc?A-userid=harmony_dev_user'(trusted)
+1693010071,184,info,BESUtil::file_to_stream() - Sent 48644 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_t2F9V9_#f16_ssmis_20210425v7.nc.dmrpp_8PCkOS'. 
+1693010071,184,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693010140,184,info,BESUtil::file_to_stream() - Sent 98153 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_RC45ZN_#f16_ssmis_20210425v7.nc.dmrpp_qNt7vV'. 
+1693010140,184,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693010159,184,info,BESUtil::file_to_stream() - Sent 2172318 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_l2ys5Y_#f16_ssmis_20210425v7.nc.dmrpp_Wj0zXY'. 
+1693010159,184,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693010176,184,info,Failed to locate '/usr/share/hyrax/ngap/collections/C1245662776-EEDTEST/granules/M2T1NXSLV.5.12.4:MERRA2_400.tavg1_2d_slv_Nx.20210609.nc4.dap'
+1693010462,184,info,BESUtil::file_to_stream() - Sent 24771 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_916fvD_#f16_ssmis_20210425v7.nc.dmrpp_DpwoWT'. 
+1693010462,184,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693010484,184,info,BESUtil::file_to_stream() - Sent 212045 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_bGH2Lm_#f16_ssmis_20210425v7.nc.dmrpp_pw2G4l'. 
+1693010484,184,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693010545,184,info,BESUtil::file_to_stream() - Sent 2172318 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_H5U61M_#f16_ssmis_20210425v7.nc.dmrpp_nySM2W'. 
+1693010545,184,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693010586,184,info,BESUtil::file_to_stream() - Sent 24771 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_uJwbvF_#f16_ssmis_20210425v7.nc.dmrpp_ojhXxW'. 
+1693010586,184,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693010616,184,info,Failed to locate '/usr/share/hyrax/ngap/collections/C1245618475-EEDTEST/granules/GPM_3IMERGHH.06:3B-HHR.MS.MRG.3IMERG.20200101-S000000-E002959.0000.V06B.HDF5.dap'
+1693010665,184,info,Failed to locate '/usr/share/hyrax/ngap/collections/C1245804308-EEDTEST/granules/NorthSlope_NEE_TVPRM.TVPRM_IVO_BES_ABoVE-LC_NARR_GOSIF_2008.nc4.dap.nc4'
+1693040425,184,info,request size: 0KB,memory used by process: 7643008KB
+1693040428,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL08/005/2020/01/02/ATL08_20200102084807_01010610_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL08/005/2020/01/02/ATL08_20200102084807_01010610_005_01.h5?A-userid=nsidc_ops'(trusted)
+1693126829,184,info,request size: 0KB,memory used by process: 7643008KB
+1693126832,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL08/005/2020/01/06/ATL08_20200106083947_01620610_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL08/005/2020/01/06/ATL08_20200106083947_01620610_005_01.h5?A-userid=nsidc_ops'(trusted)
+1693215544,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.gesdisc.uat.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGHH.06/2021/273/3B-HHR.MS.MRG.3IMERG.20210930-S000000-E002959.0000.V06B.HDF5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://gesdisc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/GPM_L3/GPM_3IMERGHH.06/2021/273/3B-HHR.MS.MRG.3IMERG.20210930-S000000-E002959.0000.V06B.HDF5?A-userid=uuidev'(trusted)
+1693227310,184,info,Failed to locate '/usr/share/hyrax/ngap/collections/C1238392622-EEDTEST/granules/f16_ssmis_20210425v7.nc'
+1693227337,184,info,BESUtil::file_to_stream() - Sent 24771 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_XAZGvn_#f16_ssmis_20210425v7.nc.dmrpp_NQ5SRg'. 
+1693227337,184,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693227337,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://harmony.uat.earthdata.nasa.gov/service-results/harmony-uat-eedtest-data/C1238392622-EEDTEST/f16_ssmis_20210425v7.nc(trusted)' CURLINFO_EFFECTIVE_URL: 'https://harmony-uat-eedtest-data.s3.us-west-2.amazonaws.com/C1238392622-EEDTEST/f16_ssmis_20210425v7.nc?A-userid=harmony_dev_user'(trusted)
+1693227417,184,info,Failed to locate '/usr/share/hyrax/ngap/collections/C1245662776-EEDTEST/granules/M2T1NXSLV.5.12.4:MERRA2_400.tavg1_2d_slv_Nx.20210609.nc4.dap'
+1693227496,184,info,BESUtil::file_to_stream() - Sent 93646 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_3WkfK0_#3B-HHR.MS.MRG.3IMERG.20200118-S190000-E192959.1140.V06B.HDF5.dmrpp_R5EGqV'. 
+1693227496,184,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693227496,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://harmony.uat.earthdata.nasa.gov/service-results/harmony-uat-eedtest-data/C1245618475-EEDTEST/3B-HHR.MS.MRG.3IMERG.20200118-S190000-E192959.1140.V06B.HDF5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://harmony-uat-eedtest-data.s3.us-west-2.amazonaws.com/C1245618475-EEDTEST/3B-HHR.MS.MRG.3IMERG.20200118-S190000-E192959.1140.V06B.HDF5?A-userid=harmony_dev_user'(trusted)
+1693227517,184,info,BESUtil::file_to_stream() - Sent 51167 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_5MQyWV_#TVPRM_IVO_BES_ABoVE-LC_NARR_GOSIF_2008.nc4.dmrpp_e0U0nb'. 
+1693227517,184,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693227517,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://harmony.uat.earthdata.nasa.gov/service-results/harmony-uat-eedtest-data/C1245804308-EEDTEST/TVPRM_IVO_BES_ABoVE-LC_NARR_GOSIF_2008.nc4(trusted)' CURLINFO_EFFECTIVE_URL: 'https://harmony-uat-eedtest-data.s3.us-west-2.amazonaws.com/C1245804308-EEDTEST/TVPRM_IVO_BES_ABoVE-LC_NARR_GOSIF_2008.nc4?A-userid=harmony_dev_user'(trusted)
+1693246740,184,info,request size: 17KB,memory used by process: 7643008KB
+1693246742,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL06/005/2020/01/01/ATL06_20200101223747_00950603_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL06/005/2020/01/01/ATL06_20200101223747_00950603_005_01.h5?A-userid=jhrguat'(trusted)
+1693246991,184,info,request size: 17KB,memory used by process: 7643008KB
+1693247014,184,info,request size: 17KB,memory used by process: 7643008KB
+1693247031,184,info,request size: 17KB,memory used by process: 7643008KB
+1693247053,184,info,request size: 17KB,memory used by process: 7643008KB
+1693247128,184,info,request size: 41KB,memory used by process: 7643008KB
+1693247130,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL07/005/2020/01/01/ATL07-01_20200101015629_00820601_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL07/005/2020/01/01/ATL07-01_20200101015629_00820601_005_01.h5?A-userid=jhrguat'(trusted)
+1693247195,184,info,request size: 11KB,memory used by process: 7643008KB
+1693247197,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL08/005/2020/01/01/ATL08_20200101145654_00900605_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL08/005/2020/01/01/ATL08_20200101145654_00900605_005_01.h5?A-userid=jhrguat'(trusted)
+1693247224,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.gesdisc.uat.earthdata.nasa.gov/data/MERRA2/M2T1NXSLV.5.12.4/2021/08/MERRA2_400.tavg1_2d_slv_Nx.20210831.nc4(trusted)' CURLINFO_EFFECTIVE_URL: 'https://gesdisc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/MERRA2/M2T1NXSLV.5.12.4/2021/08/MERRA2_400.tavg1_2d_slv_Nx.20210831.nc4?A-userid=uuidev'(trusted)
+1693247372,184,info,request size: 20KB,memory used by process: 7643008KB
+1693247375,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL10/005/2020/01/01/ATL10-01_20200101002212_00810601_005_02.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL10/005/2020/01/01/ATL10-01_20200101002212_00810601_005_02.h5?A-userid=jhrguat'(trusted)
+1693247434,184,info,request size: 203KB,memory used by process: 7643008KB
+1693247436,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL12/005/2020/01/ATL12_20200101002212_00810601_005_02.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL12/005/2020/01/ATL12_20200101002212_00810601_005_02.h5?A-userid=jhrguat'(trusted)
+1693247459,184,info,request size: 203KB,memory used by process: 7643008KB
+1693247505,184,info,request size: 43KB,memory used by process: 7643008KB
+1693247508,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL13/005/2020/01/ATL13_20200101002212_00810601_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL13/005/2020/01/ATL13_20200101002212_00810601_005_01.h5?A-userid=jhrguat'(trusted)
+1693247563,184,info,request size: 43KB,memory used by process: 7643008KB
+1693247606,184,info,request size: 136KB,memory used by process: 7643008KB
+1693247636,184,info,request size: 136KB,memory used by process: 7643008KB
+1693247662,184,info,request size: 136KB,memory used by process: 7643008KB
+1693247722,184,info,request size: 4955KB,memory used by process: 7643008KB
+1693247724,184,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL03/005/2020/01/01/ATL03_20200101145654_00900605_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL03/005/2020/01/01/ATL03_20200101145654_00900605_005_01.h5?A-userid=jhrguat'(trusted)
+1693247753,184,info,request size: 4955KB,memory used by process: 7643008KB
+1693247770,184,info,request size: 4955KB,memory used by process: 7643008KB
+1693247794,184,info,request size: 324KB,memory used by process: 7643008KB
+1693247834,184,info,request size: 324KB,memory used by process: 7643008KB
+1693247855,184,info,request size: 324KB,memory used by process: 7643008KB
+1693227313,5841,info,BESUtil::file_to_stream() - Sent 24771 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_HH692N_#f16_ssmis_20210425v7.nc.dmrpp_0AjmdR'. 
+1693227313,5841,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693227313,5841,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://harmony.uat.earthdata.nasa.gov/service-results/harmony-uat-eedtest-data/C1238392622-EEDTEST/f16_ssmis_20210425v7.nc(trusted)' CURLINFO_EFFECTIVE_URL: 'https://harmony-uat-eedtest-data.s3.us-west-2.amazonaws.com/C1238392622-EEDTEST/f16_ssmis_20210425v7.nc?A-userid=harmony_dev_user'(trusted)
+1693227356,5841,info,BESUtil::file_to_stream() - Sent 24771 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_bTBkj7_#f16_ssmis_20210425v7.nc.dmrpp_rqBvg8'. 
+1693227356,5841,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693227416,5841,info,Failed to locate '/usr/share/hyrax/ngap/collections/C1245662776-EEDTEST/granules/M2T1NXSLV.5.12.4:MERRA2_400.tavg1_2d_slv_Nx.20210609.nc4'
+1693227422,5841,info,BESUtil::file_to_stream() - Sent 1913528 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_LeBDws_#MERRA2_400.tavg1_2d_slv_Nx.20210609.nc4.dmrpp_3oXLCL'. 
+1693227422,5841,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693227422,5841,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://harmony.uat.earthdata.nasa.gov/service-results/harmony-uat-eedtest-data/C1245662776-EEDTEST/MERRA2_400.tavg1_2d_slv_Nx.20210609.nc4(trusted)' CURLINFO_EFFECTIVE_URL: 'https://harmony-uat-eedtest-data.s3.us-west-2.amazonaws.com/C1245662776-EEDTEST/MERRA2_400.tavg1_2d_slv_Nx.20210609.nc4?A-userid=harmony_dev_user'(trusted)
+1693227494,5841,info,Failed to locate '/usr/share/hyrax/ngap/collections/C1245618475-EEDTEST/granules/GPM_3IMERGHH.06:3B-HHR.MS.MRG.3IMERG.20200118-S190000-E192959.1140.V06B.HDF5.dap.nc4'
+1693227514,5841,info,Failed to locate '/usr/share/hyrax/ngap/collections/C1245804308-EEDTEST/granules/NorthSlope_NEE_TVPRM.TVPRM_IVO_BES_ABoVE-LC_NARR_GOSIF_2008.nc4.dap.nc4'
+1693230095,5841,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.gesdisc.uat.earthdata.nasa.gov/data/MERRA2/M2T1NXSLV.5.12.4/2021/08/MERRA2_400.tavg1_2d_slv_Nx.20210831.nc4(trusted)' CURLINFO_EFFECTIVE_URL: 'https://gesdisc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/MERRA2/M2T1NXSLV.5.12.4/2021/08/MERRA2_400.tavg1_2d_slv_Nx.20210831.nc4?A-userid=uuidev'(trusted)
+1693243776,5841,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.gesdisc.uat.earthdata.nasa.gov/data/MERRA2/M2T1NXSLV.5.12.4/2021/08/MERRA2_400.tavg1_2d_slv_Nx.20210831.nc4(trusted)' CURLINFO_EFFECTIVE_URL: 'https://gesdisc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/MERRA2/M2T1NXSLV.5.12.4/2021/08/MERRA2_400.tavg1_2d_slv_Nx.20210831.nc4?A-userid=uuidev'(trusted)
+1693246967,5841,info,request size: 17KB,memory used by process: 2061952KB
+1693246970,5841,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL06/005/2020/01/01/ATL06_20200101223747_00950603_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL06/005/2020/01/01/ATL06_20200101223747_00950603_005_01.h5?A-userid=jhrguat'(trusted)
+1693247010,5841,info,request size: 17KB,memory used by process: 2061952KB
+1693247027,5841,info,request size: 17KB,memory used by process: 2061952KB
+1693247044,5841,info,request size: 17KB,memory used by process: 2061952KB
+1693247108,5841,info,request size: 41KB,memory used by process: 2061952KB
+1693247111,5841,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL07/005/2020/01/01/ATL07-01_20200101015629_00820601_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL07/005/2020/01/01/ATL07-01_20200101015629_00820601_005_01.h5?A-userid=jhrguat'(trusted)
+1693247156,5841,info,request size: 41KB,memory used by process: 2062264KB
+1693247220,5841,info,request size: 11KB,memory used by process: 2062264KB
+1693247222,5841,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL08/005/2020/01/01/ATL08_20200101145654_00900605_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL08/005/2020/01/01/ATL08_20200101145654_00900605_005_01.h5?A-userid=jhrguat'(trusted)
+1693247252,5841,info,request size: 11KB,memory used by process: 2062264KB
+1693247263,5841,info,request size: 11KB,memory used by process: 2062264KB
+1693247306,5841,info,request size: 20KB,memory used by process: 2062264KB
+1693247308,5841,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL10/005/2020/01/01/ATL10-01_20200101002212_00810601_005_02.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL10/005/2020/01/01/ATL10-01_20200101002212_00810601_005_02.h5?A-userid=jhrguat'(trusted)
+1693247334,5841,info,request size: 20KB,memory used by process: 2062264KB
+1693247355,5841,info,request size: 20KB,memory used by process: 2062264KB
+1693247379,5841,info,request size: 20KB,memory used by process: 2062264KB
+1693247445,5841,info,request size: 203KB,memory used by process: 2062264KB
+1693247447,5841,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL12/005/2020/01/ATL12_20200101002212_00810601_005_02.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL12/005/2020/01/ATL12_20200101002212_00810601_005_02.h5?A-userid=jhrguat'(trusted)
+1693247485,5841,info,request size: 203KB,memory used by process: 2062264KB
+1693247524,5841,info,request size: 43KB,memory used by process: 2062264KB
+1693247527,5841,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL13/005/2020/01/ATL13_20200101002212_00810601_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL13/005/2020/01/ATL13_20200101002212_00810601_005_01.h5?A-userid=jhrguat'(trusted)
+1693247567,5841,info,request size: 43KB,memory used by process: 2062264KB
+1693247623,5841,info,request size: 136KB,memory used by process: 2062264KB
+1693247645,5841,info,request size: 136KB,memory used by process: 2062264KB
+1693247666,5841,info,request size: 136KB,memory used by process: 2062264KB
+1693247703,5841,info,request size: 4955KB,memory used by process: 2062264KB
+1693247705,5841,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL03/005/2020/01/01/ATL03_20200101145654_00900605_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL03/005/2020/01/01/ATL03_20200101145654_00900605_005_01.h5?A-userid=jhrguat'(trusted)
+1693247739,5841,info,request size: 4955KB,memory used by process: 2062264KB
+1693247763,5841,info,request size: 4955KB,memory used by process: 2062264KB
+1693247777,5841,info,request size: 4955KB,memory used by process: 2062264KB
+1693247820,5841,info,request size: 324KB,memory used by process: 2062264KB
+1693247845,5841,info,request size: 324KB,memory used by process: 2062264KB
+1693247870,5841,info,request size: 324KB,memory used by process: 2062264KB
+1692981405,8154,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.gesdisc.uat.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGHH.06/2021/273/3B-HHR.MS.MRG.3IMERG.20210930-S000000-E002959.0000.V06B.HDF5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://gesdisc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/GPM_L3/GPM_3IMERGHH.06/2021/273/3B-HHR.MS.MRG.3IMERG.20210930-S000000-E002959.0000.V06B.HDF5?A-userid=uuidev'(trusted)
+1692991807,8154,info,Failed to locate '/usr/share/hyrax/data/gdal/catalog.xml'
+1692992129,8154,info,Failed to locate '/usr/share/hyrax/data/dmrpp/catalog.xml'
+1692992510,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/catalog.xml'
+1692992523,8154,info,Failed to locate '/usr/share/hyrax/data/hdf5/catalog.xml'
+1692992693,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/dated/catalog.xml'
+1692992733,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/dmr-testsuite/catalog.xml'
+1692992976,8154,info,Failed to locate '/usr/share/hyrax/data/APIs/'
+1692992976,8154,info,Failed to locate '/usr/share/hyrax/data/nc/APIs/'
+1692992977,8154,info,Failed to locate '/usr/share/hyrax/data/hdf4/APIs/'
+1692992977,8154,info,Failed to locate '/usr/share/hyrax/data/stare/APIs/'
+1692992978,8154,info,Failed to locate '/usr/share/hyrax/data/gdal/service/'
+1692992978,8154,info,Failed to locate '/usr/share/hyrax/data/ugrids/service/'
+1692992979,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/service/'
+1692992979,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/service/'
+1692992981,8154,info,Failed to locate '/usr/share/hyrax/data/gdal/Service/'
+1692992981,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/Service/'
+1692992982,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/Service/'
+1692992983,8154,info,Failed to locate '/usr/share/hyrax/SERVICE/'
+1692992984,8154,info,Failed to locate '/usr/share/hyrax/data/csv/SERVICE/'
+1692992985,8154,info,Failed to locate '/usr/share/hyrax/data/hdf5/SERVICE/'
+1692992986,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/SERVICE/'
+1692992987,8154,info,Failed to locate '/usr/share/hyrax/data/WebService/'
+1692992990,8154,info,Failed to locate '/usr/share/hyrax/data/hdf5/WebService/'
+1692992991,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/grids/WebService/'
+1692993032,8154,info,Failed to locate '/usr/share/hyrax/data/ws/'
+1692993034,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/ws/'
+1692993035,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/dmrpp/ws/'
+1692993036,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/D4-xml/ws/'
+1692993037,8154,info,Failed to locate '/usr/share/hyrax/data/dmrpp/WS/'
+1692993038,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/WS/'
+1692993039,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/grids/WS/'
+1692993040,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/D4-xml/WS/'
+1692993041,8154,info,Failed to locate '/usr/share/hyrax/data/ugrids/wsdl/'
+1692993042,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/wsdl/'
+1692993042,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/grids/wsdl/'
+1692993043,8154,info,Failed to locate '/usr/share/hyrax/data/gdal/WSDL/'
+1692993045,8154,info,Failed to locate '/usr/share/hyrax/data/hdf4/WSDL/'
+1692993046,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/D4-xml/WSDL/'
+1692993046,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/WSDL/'
+1692993101,8154,info,Failed to locate '/usr/share/hyrax/data/dmrpp/catalog.xml'
+1692993109,8154,info,Failed to locate '/usr/share/hyrax/data/api.jsp'
+1692993110,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/api.jsp'
+1692993110,8154,info,Failed to locate '/usr/share/hyrax/data/ugrids/api.jsp'
+1692993111,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/dmr-testsuite/api.jsp'
+1692993112,8154,info,Failed to locate '/usr/share/hyrax/data/hdf5/service.jsp'
+1692993112,8154,info,Failed to locate '/usr/share/hyrax/data/stare/service.jsp'
+1692993113,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/dmr-testsuite/service.jsp'
+1692993113,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/service.jsp'
+1692993114,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/ws.jsp'
+1692993114,8154,info,Failed to locate '/usr/share/hyrax/data/nc/ws.jsp'
+1692993115,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/D4-xml/ws.jsp'
+1692993133,8154,info,Failed to locate '/usr/share/hyrax/data/ff/catalog.xml'
+1692993134,8154,info,Failed to locate '/usr/share/hyrax/data/hdf4/catalog.xml'
+1692993285,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/catalog.xml'
+1692993772,8154,info,Failed to locate '/usr/share/hyrax/data/ff/catalog.xml'
+1692993793,8154,info,Failed to locate '/usr/share/hyrax/data/stare/catalog.xml'
+1692993803,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/D4-xml/catalog.xml'
+1692993875,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/catalog.xml'
+1692994411,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/grids/catalog.xml'
+1692994533,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/catalog.xml'
+1692994657,8154,info,Failed to locate '/usr/share/hyrax/data/catalog.xml'
+1692994672,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/dmr-testsuite/catalog.xml'
+1692994796,8154,info,Failed to locate '/usr/share/hyrax/data/ff/catalog.xml'
+1692995003,8154,info,Failed to locate '/usr/share/hyrax/catalog.xml'
+1692995072,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/catalog.xml'
+1692995139,8154,info,Failed to locate '/usr/share/hyrax/data/dmrpp/catalog.xml'
+1692995151,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/D4-xml/catalog.xml'
+1692995777,8154,info,Failed to locate '/usr/share/hyrax/${(4444*333 + "_QUALYS")}/${(8888*111 + "_QUALYS")}/catalog.xml'
+1692995777,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/###4444#333 + #_QUALYS###/###8888#111 + #_QUALYS###/'
+1692995778,8154,info,Failed to locate '/usr/share/hyrax/data/hdf5/###4444#333 + #_QUALYS###/###8888#111 + #_QUALYS###/'
+1692995778,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/dmrpp/###4444#333 + #_QUALYS###/###8888#111 + #_QUALYS###'
+1692995779,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/grids/###4444#333 + #_QUALYS###/###8888#111 + #_QUALYS###/'
+1692995782,8154,info,Failed to locate '/usr/share/hyrax/data/dmrpp/axis2-admin/login'
+1692995783,8154,info,Failed to locate '/usr/share/hyrax/data/ff/axis2-admin/login'
+1692995783,8154,info,Failed to locate '/usr/share/hyrax/data/hdf4/axis2-admin/login'
+1692995784,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/D4-xml/axis2-admin/login'
+1692995808,8154,info,Failed to locate '/usr/share/hyrax/data/gdal/admin/'
+1692995809,8154,info,Failed to locate '/usr/share/hyrax/data/ff/admin/'
+1692995810,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/admin/'
+1692995811,8154,info,Failed to locate '/usr/share/hyrax/data/stare/adm/'
+1692995812,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/adm/'
+1692995813,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/dmr-testsuite/adm/'
+1692995814,8154,info,Failed to locate '/usr/share/hyrax/data/hdf4/administration/'
+1692995814,8154,info,Failed to locate '/usr/share/hyrax/data/stare/administration/'
+1692995815,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/grids/administration/'
+1692995816,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/D4-xml/administration/'
+1692995819,8154,info,Failed to locate '/usr/share/hyrax/data/csv/admin.jsp'
+1692995822,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/admin.jsp'
+1692995822,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/dated/admin.jsp'
+1692995872,8154,info,Failed to locate '/usr/share/hyrax/data/gdal/src/'
+1692995873,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/src/'
+1692995873,8154,info,Failed to locate '/usr/share/hyrax/data/stare/src/'
+1692995874,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/D4-xml/src/'
+1692995874,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/src/'
+1692995877,8154,info,Failed to locate '/usr/share/hyrax/data/dmrpp/common/'
+1692995877,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/common/'
+1692995878,8154,info,Failed to locate '/usr/share/hyrax/data/hdf5/common/'
+1692995879,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/dated/common/'
+1692995881,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/config/'
+1692995881,8154,info,Failed to locate '/usr/share/hyrax/data/ugrids/config/'
+1692995882,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/dated/config/'
+1692995883,8154,info,Failed to locate '/usr/share/hyrax/css/'
+1692995886,8154,info,Failed to locate '/usr/share/hyrax/data/ff/css/'
+1692995887,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/dmrpp/css/'
+1692995932,8154,info,Failed to locate '/usr/share/hyrax/data/dmrpp/docs/'
+1692995932,8154,info,Failed to locate '/usr/share/hyrax/data/stare/docs/'
+1692995933,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/docs/'
+1692995934,8154,info,Failed to locate '/usr/share/hyrax/external/'
+1692995936,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/external/'
+1692995937,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/dated/external/'
+1692995938,8154,info,Failed to locate '/usr/share/hyrax/data/nc/history/'
+1692995940,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/dmrpp/history/'
+1692995941,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/D4-xml/history/'
+1692995942,8154,info,Failed to locate '/usr/share/hyrax/data/gdal/include/'
+1692995942,8154,info,Failed to locate '/usr/share/hyrax/data/ugrids/include/'
+1692995944,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/dmr-testsuite/include/'
+1692995944,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/dmrpp/include/'
+1692995946,8154,info,Failed to locate '/usr/share/hyrax/data/ugrids/includes/'
+1692995947,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/includes/'
+1692995948,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/includes/'
+1692995949,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/D4-xml/includes/'
+1692995951,8154,info,Failed to locate '/usr/share/hyrax/data/ugrids/js/'
+1692995952,8154,info,Failed to locate '/usr/share/hyrax/data/hdf4/js/'
+1692995956,8154,info,Failed to locate '/usr/share/hyrax/lib/'
+1692995992,8154,info,Failed to locate '/usr/share/hyrax/data/dmrpp/lib/'
+1692995992,8154,info,Failed to locate '/usr/share/hyrax/data/stare/lib/'
+1692995995,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/D4-xml/lib/'
+1692995995,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/lib/'
+1692996001,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/test.jsp'
+1692996002,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/test.jsp'
+1692996003,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/grids/test.jsp'
+1692996009,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/bin/'
+1692996011,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/bin/'
+1692996012,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/D4-xml/bin/'
+1692996121,8154,info,Failed to locate '/usr/share/hyrax/data/gdal/catalog.xml'
+1692996215,8154,info,Failed to locate '/usr/share/hyrax/data/dmrpp/catalog.xml'
+1692996226,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/catalog.xml'
+1692996229,8154,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/catalog.xml'
+1692996230,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/catalog.xml'
+1692996263,8154,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/D4-xml/catalog.xml'
+1693010068,8154,info,Failed to locate '/usr/share/hyrax/ngap/collections/C1238392622-EEDTEST/granules/f16_ssmis_20210425v7.nc.dap.nc4'
+1693010093,8154,info,BESUtil::file_to_stream() - Sent 212045 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_SXdBn1_#f16_ssmis_20210425v7.nc.dmrpp_CyJMIq'. 
+1693010093,8154,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693010093,8154,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://harmony.uat.earthdata.nasa.gov/service-results/harmony-uat-eedtest-data/C1238392622-EEDTEST/f16_ssmis_20210425v7.nc(trusted)' CURLINFO_EFFECTIVE_URL: 'https://harmony-uat-eedtest-data.s3.us-west-2.amazonaws.com/C1238392622-EEDTEST/f16_ssmis_20210425v7.nc?A-userid=harmony_dev_user'(trusted)
+1693010139,8154,info,BESUtil::file_to_stream() - Sent 24771 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_5Bmlck_#f16_ssmis_20210425v7.nc.dmrpp_K66ed6'. 
+1693010139,8154,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693010156,8154,info,BESUtil::file_to_stream() - Sent 24771 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_AcTvvB_#f16_ssmis_20210425v7.nc.dmrpp_bbJIsc'. 
+1693010156,8154,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693010176,8154,info,Failed to locate '/usr/share/hyrax/ngap/collections/C1245662776-EEDTEST/granules/M2T1NXSLV.5.12.4:MERRA2_400.tavg1_2d_slv_Nx.20210609.nc4'
+1693010179,8154,info,BESUtil::file_to_stream() - Sent 24040 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_GkKTmV_#MERRA2_400.tavg1_2d_slv_Nx.20210609.nc4.dmrpp_mcTq6y'. 
+1693010179,8154,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693010179,8154,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://harmony.uat.earthdata.nasa.gov/service-results/harmony-uat-eedtest-data/C1245662776-EEDTEST/MERRA2_400.tavg1_2d_slv_Nx.20210609.nc4(trusted)' CURLINFO_EFFECTIVE_URL: 'https://harmony-uat-eedtest-data.s3.us-west-2.amazonaws.com/C1245662776-EEDTEST/MERRA2_400.tavg1_2d_slv_Nx.20210609.nc4?A-userid=harmony_dev_user'(trusted)
+1693010483,8154,info,BESUtil::file_to_stream() - Sent 24771 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_GQhoqy_#f16_ssmis_20210425v7.nc.dmrpp_Bw4xFv'. 
+1693010483,8154,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693010569,8154,info,BESUtil::file_to_stream() - Sent 1913528 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_7pxo8T_#MERRA2_400.tavg1_2d_slv_Nx.20210609.nc4.dmrpp_aJ6kQE'. 
+1693010569,8154,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693010616,8154,info,Failed to locate '/usr/share/hyrax/ngap/collections/C1245618475-EEDTEST/granules/GPM_3IMERGHH.06:3B-HHR.MS.MRG.3IMERG.20200101-S000000-E002959.0000.V06B.HDF5'
+1693010618,8154,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://harmony.uat.earthdata.nasa.gov/service-results/harmony-uat-eedtest-data/C1245618475-EEDTEST/3B-HHR.MS.MRG.3IMERG.20200101-S000000-E002959.0000.V06B.HDF5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://harmony-uat-eedtest-data.s3.us-west-2.amazonaws.com/C1245618475-EEDTEST/3B-HHR.MS.MRG.3IMERG.20200101-S000000-E002959.0000.V06B.HDF5?A-userid=harmony_dev_user'(trusted)
+1693010619,8154,info,BESUtil::file_to_stream() - Sent 199647 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_E58Wwi_#3B-HHR.MS.MRG.3IMERG.20200101-S000000-E002959.0000.V06B.HDF5.dmrpp_PERBWE'. 
+1693010619,8154,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693010665,8154,info,Failed to locate '/usr/share/hyrax/ngap/collections/C1245804308-EEDTEST/granules/NorthSlope_NEE_TVPRM.TVPRM_IVO_BES_ABoVE-LC_NARR_GOSIF_2008.nc4.dap'
+1693213225,8154,info,request size: 0KB,memory used by process: 439828KB
+1693213227,8154,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL08/005/2020/01/03/ATL08_20200103082227_01160610_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL08/005/2020/01/03/ATL08_20200103082227_01160610_005_01.h5?A-userid=nsidc_ops'(trusted)
+1693222810,8154,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.gesdisc.uat.earthdata.nasa.gov/data/MERRA2/M2T1NXSLV.5.12.4/2021/08/MERRA2_400.tavg1_2d_slv_Nx.20210831.nc4(trusted)' CURLINFO_EFFECTIVE_URL: 'https://gesdisc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/MERRA2/M2T1NXSLV.5.12.4/2021/08/MERRA2_400.tavg1_2d_slv_Nx.20210831.nc4?A-userid=uuidev'(trusted)
+1693227310,8154,info,Failed to locate '/usr/share/hyrax/ngap/collections/C1238392622-EEDTEST/granules/f16_ssmis_20210425v7.nc.dap.nc4'
+1693227419,8154,info,BESUtil::file_to_stream() - Sent 24040 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_TqIjeV_#MERRA2_400.tavg1_2d_slv_Nx.20210609.nc4.dmrpp_Z4crVq'. 
+1693227419,8154,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693227419,8154,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://harmony.uat.earthdata.nasa.gov/service-results/harmony-uat-eedtest-data/C1245662776-EEDTEST/MERRA2_400.tavg1_2d_slv_Nx.20210609.nc4(trusted)' CURLINFO_EFFECTIVE_URL: 'https://harmony-uat-eedtest-data.s3.us-west-2.amazonaws.com/C1245662776-EEDTEST/MERRA2_400.tavg1_2d_slv_Nx.20210609.nc4?A-userid=harmony_dev_user'(trusted)
+1693227494,8154,info,Failed to locate '/usr/share/hyrax/ngap/collections/C1245618475-EEDTEST/granules/GPM_3IMERGHH.06:3B-HHR.MS.MRG.3IMERG.20200118-S190000-E192959.1140.V06B.HDF5.dap'
+1693227514,8154,info,Failed to locate '/usr/share/hyrax/ngap/collections/C1245804308-EEDTEST/granules/NorthSlope_NEE_TVPRM.TVPRM_IVO_BES_ABoVE-LC_NARR_GOSIF_2008.nc4.dap'
+1693236882,8154,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.gesdisc.uat.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGHH.06/2021/273/3B-HHR.MS.MRG.3IMERG.20210930-S000000-E002959.0000.V06B.HDF5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://gesdisc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/GPM_L3/GPM_3IMERGHH.06/2021/273/3B-HHR.MS.MRG.3IMERG.20210930-S000000-E002959.0000.V06B.HDF5?A-userid=uuidev'(trusted)
+1693246955,8154,info,request size: 17KB,memory used by process: 1952352KB
+1693246957,8154,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL06/005/2020/01/01/ATL06_20200101223747_00950603_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL06/005/2020/01/01/ATL06_20200101223747_00950603_005_01.h5?A-userid=jhrguat'(trusted)
+1693247006,8154,info,request size: 17KB,memory used by process: 1952352KB
+1693247023,8154,info,request size: 17KB,memory used by process: 1952352KB
+1693247040,8154,info,request size: 17KB,memory used by process: 1952352KB
+1693247091,8154,info,request size: 41KB,memory used by process: 1952352KB
+1693247093,8154,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL07/005/2020/01/01/ATL07-01_20200101015629_00820601_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL07/005/2020/01/01/ATL07-01_20200101015629_00820601_005_01.h5?A-userid=jhrguat'(trusted)
+1693247152,8154,info,request size: 41KB,memory used by process: 1952440KB
+1693247246,8154,info,request size: 11KB,memory used by process: 1952440KB
+1693247249,8154,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL08/005/2020/01/01/ATL08_20200101145654_00900605_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL08/005/2020/01/01/ATL08_20200101145654_00900605_005_01.h5?A-userid=jhrguat'(trusted)
+1693247259,8154,info,request size: 11KB,memory used by process: 1952440KB
+1693247275,8154,info,request size: 20KB,memory used by process: 1952440KB
+1693247277,8154,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL10/005/2020/01/01/ATL10-01_20200101002212_00810601_005_02.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL10/005/2020/01/01/ATL10-01_20200101002212_00810601_005_02.h5?A-userid=jhrguat'(trusted)
+1693247325,8154,info,request size: 20KB,memory used by process: 1952440KB
+1693247351,8154,info,request size: 20KB,memory used by process: 1952440KB
+1693247364,8154,info,request size: 20KB,memory used by process: 1952440KB
+1693247423,8154,info,request size: 203KB,memory used by process: 1952440KB
+1693247426,8154,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL12/005/2020/01/ATL12_20200101002212_00810601_005_02.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL12/005/2020/01/ATL12_20200101002212_00810601_005_02.h5?A-userid=jhrguat'(trusted)
+1693247455,8154,info,request size: 203KB,memory used by process: 1952440KB
+1693247494,8154,info,request size: 203KB,memory used by process: 1952440KB
+1693247543,8154,info,request size: 43KB,memory used by process: 1952440KB
+1693247546,8154,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL13/005/2020/01/ATL13_20200101002212_00810601_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL13/005/2020/01/ATL13_20200101002212_00810601_005_01.h5?A-userid=jhrguat'(trusted)
+1693247584,8154,info,request size: 43KB,memory used by process: 1952440KB
+1693247632,8154,info,request size: 136KB,memory used by process: 1952440KB
+1693247658,8154,info,request size: 136KB,memory used by process: 1952440KB
+1693247692,8154,info,request size: 136KB,memory used by process: 1952440KB
+1693247733,8154,info,request size: 4955KB,memory used by process: 1952440KB
+1693247735,8154,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL03/005/2020/01/01/ATL03_20200101145654_00900605_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL03/005/2020/01/01/ATL03_20200101145654_00900605_005_01.h5?A-userid=jhrguat'(trusted)
+1693247759,8154,info,request size: 4955KB,memory used by process: 1952440KB
+1693247773,8154,info,request size: 4955KB,memory used by process: 1952440KB
+1693247816,8154,info,request size: 324KB,memory used by process: 1952440KB
+1693247838,8154,info,request size: 324KB,memory used by process: 1952640KB
+1693247867,8154,info,request size: 324KB,memory used by process: 1952680KB
+1692899668,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://archive.podaac.sit.earthdata.nasa.gov/podaac-sit-cumulus-protected/H09-AHI-L3C-ACSPO-v2.90/20230821130000-STAR-L3C_GHRSST-SSTsubskin-AHI_H09-ACSPO_V2.90-v02.0-fv01.0.nc(trusted)' CURLINFO_EFFECTIVE_URL: 'https://podaac-sit-cumulus-protected.s3.us-west-2.amazonaws.com/H09-AHI-L3C-ACSPO-v2.90/20230821130000-STAR-L3C_GHRSST-SSTsubskin-AHI_H09-ACSPO_V2.90-v02.0-fv01.0.nc?A-userid=podaaccloud'(trusted)
+1692900040,22196,info,request size: 3322371KB,memory used by process: 6897652KB
+1692900353,22196,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1692900354,22196,info,BESUtil::file_to_stream() - Sent 36073389 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_TKLUhS_#20230821130000-STAR-L3C_GHRSST-SSTsubskin-AHI_H09-ACSPO_V2.90-v02.0-fv01.0.nc.dmrpp_3ovnSi'. 
+1692900389,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://archive.podaac.sit.earthdata.nasa.gov/podaac-sit-cumulus-protected/H09-AHI-L2P-ACSPO-v2.90/20230821140000-STAR-L2P_GHRSST-SSTsubskin-AHI_H09-ACSPO_V2.90-v02.0-fv01.0.nc(trusted)' CURLINFO_EFFECTIVE_URL: 'https://podaac-sit-cumulus-protected.s3.us-west-2.amazonaws.com/H09-AHI-L2P-ACSPO-v2.90/20230821140000-STAR-L2P_GHRSST-SSTsubskin-AHI_H09-ACSPO_V2.90-v02.0-fv01.0.nc?A-userid=podaaccloud'(trusted)
+1692900520,22196,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1692900521,22196,info,BESUtil::file_to_stream() - Sent 45612251 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_EkBVXl_#20230821140000-STAR-L2P_GHRSST-SSTsubskin-AHI_H09-ACSPO_V2.90-v02.0-fv01.0.nc.dmrpp_pav7EN'. 
+1692903055,22196,info,request size: 17KB,memory used by process: 7293660KB
+1692903058,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL06/005/2020/01/01/ATL06_20200101223747_00950603_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL06/005/2020/01/01/ATL06_20200101223747_00950603_005_01.h5?A-userid=jhrguat'(trusted)
+1692903076,22196,info,request size: 17KB,memory used by process: 7293660KB
+1692903094,22196,info,request size: 17KB,memory used by process: 7293660KB
+1692903112,22196,info,request size: 17KB,memory used by process: 7293660KB
+1692903136,22196,info,request size: 17KB,memory used by process: 7293660KB
+1692903147,22196,info,request size: 17KB,memory used by process: 7293660KB
+1692903191,22196,info,request size: 41KB,memory used by process: 7293660KB
+1692903193,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL07/005/2020/01/01/ATL07-01_20200101015629_00820601_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL07/005/2020/01/01/ATL07-01_20200101015629_00820601_005_01.h5?A-userid=jhrguat'(trusted)
+1692903231,22196,info,request size: 41KB,memory used by process: 7293660KB
+1692903260,22196,info,request size: 41KB,memory used by process: 7293660KB
+1692903287,22196,info,request size: 41KB,memory used by process: 7293660KB
+1692903355,22196,info,request size: 11KB,memory used by process: 7293660KB
+1692903357,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL08/005/2020/01/01/ATL08_20200101145654_00900605_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL08/005/2020/01/01/ATL08_20200101145654_00900605_005_01.h5?A-userid=jhrguat'(trusted)
+1692903367,22196,info,request size: 11KB,memory used by process: 7293660KB
+1692903390,22196,info,request size: 11KB,memory used by process: 7293660KB
+1692903415,22196,info,request size: 20KB,memory used by process: 7293660KB
+1692903417,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL10/005/2020/01/01/ATL10-01_20200101002212_00810601_005_02.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL10/005/2020/01/01/ATL10-01_20200101002212_00810601_005_02.h5?A-userid=jhrguat'(trusted)
+1692903442,22196,info,request size: 20KB,memory used by process: 7293660KB
+1692903452,22196,info,request size: 20KB,memory used by process: 7293660KB
+1692903462,22196,info,request size: 20KB,memory used by process: 7293660KB
+1692903494,22196,info,request size: 20KB,memory used by process: 7293660KB
+1692903514,22196,info,request size: 20KB,memory used by process: 7293660KB
+1692903566,22196,info,request size: 203KB,memory used by process: 7293660KB
+1692903568,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL12/005/2020/01/ATL12_20200101002212_00810601_005_02.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL12/005/2020/01/ATL12_20200101002212_00810601_005_02.h5?A-userid=jhrguat'(trusted)
+1692903586,22196,info,request size: 203KB,memory used by process: 7293660KB
+1692903624,22196,info,request size: 203KB,memory used by process: 7293660KB
+1692903647,22196,info,request size: 203KB,memory used by process: 7293660KB
+1692903683,22196,info,request size: 43KB,memory used by process: 7293660KB
+1692903685,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL13/005/2020/01/ATL13_20200101002212_00810601_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL13/005/2020/01/ATL13_20200101002212_00810601_005_01.h5?A-userid=jhrguat'(trusted)
+1692903707,22196,info,request size: 43KB,memory used by process: 7293660KB
+1692903732,22196,info,request size: 43KB,memory used by process: 7293660KB
+1692903771,22196,info,request size: 43KB,memory used by process: 7293660KB
+1692903786,22196,info,request size: 43KB,memory used by process: 7293660KB
+1692903802,22196,info,request size: 43KB,memory used by process: 7293660KB
+1692903823,22196,info,request size: 136KB,memory used by process: 7293660KB
+1692903840,22196,info,request size: 136KB,memory used by process: 7293660KB
+1692903862,22196,info,request size: 136KB,memory used by process: 7293660KB
+1692903889,22196,info,request size: 136KB,memory used by process: 7293660KB
+1692903905,22196,info,request size: 136KB,memory used by process: 7293660KB
+1692903921,22196,info,request size: 136KB,memory used by process: 7293660KB
+1692903931,22196,info,request size: 136KB,memory used by process: 7293660KB
+1692903952,22196,info,request size: 4955KB,memory used by process: 7293660KB
+1692903955,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL03/005/2020/01/01/ATL03_20200101145654_00900605_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL03/005/2020/01/01/ATL03_20200101145654_00900605_005_01.h5?A-userid=jhrguat'(trusted)
+1692903998,22196,info,request size: 4955KB,memory used by process: 7293660KB
+1692904025,22196,info,request size: 4955KB,memory used by process: 7293660KB
+1692904068,22196,info,request size: 4955KB,memory used by process: 7293660KB
+1692904159,22196,info,request size: 4955KB,memory used by process: 7293660KB
+1692904241,22196,info,request size: 324KB,memory used by process: 7293660KB
+1692904272,22196,info,request size: 324KB,memory used by process: 7293660KB
+1692904288,22196,info,request size: 324KB,memory used by process: 7293660KB
+1692904303,22196,info,request size: 324KB,memory used by process: 7293660KB
+1692904330,22196,info,request size: 324KB,memory used by process: 7293660KB
+1692904345,22196,info,request size: 324KB,memory used by process: 7293660KB
+1692904360,22196,info,request size: 324KB,memory used by process: 7293660KB
+1692909691,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://archive.podaac.sit.earthdata.nasa.gov/podaac-sit-cumulus-protected/H09-AHI-L3C-ACSPO-v2.90/20230821130000-STAR-L3C_GHRSST-SSTsubskin-AHI_H09-ACSPO_V2.90-v02.0-fv01.0.nc(trusted)' CURLINFO_EFFECTIVE_URL: 'https://podaac-sit-cumulus-protected.s3.us-west-2.amazonaws.com/H09-AHI-L3C-ACSPO-v2.90/20230821130000-STAR-L3C_GHRSST-SSTsubskin-AHI_H09-ACSPO_V2.90-v02.0-fv01.0.nc?A-userid=podaaccloud'(trusted)
+1692909724,22196,info,BESUtil::file_to_stream() - Sent 36073389 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_YmykNf_#20230821130000-STAR-L3C_GHRSST-SSTsubskin-AHI_H09-ACSPO_V2.90-v02.0-fv01.0.nc.dmrpp_0QkUFc'. 
+1692909724,22196,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1692909836,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://archive.podaac.sit.earthdata.nasa.gov/podaac-sit-cumulus-protected/H09-AHI-L2P-ACSPO-v2.90/20230821140000-STAR-L2P_GHRSST-SSTsubskin-AHI_H09-ACSPO_V2.90-v02.0-fv01.0.nc(trusted)' CURLINFO_EFFECTIVE_URL: 'https://podaac-sit-cumulus-protected.s3.us-west-2.amazonaws.com/H09-AHI-L2P-ACSPO-v2.90/20230821140000-STAR-L2P_GHRSST-SSTsubskin-AHI_H09-ACSPO_V2.90-v02.0-fv01.0.nc?A-userid=podaaccloud'(trusted)
+1692909848,22196,info,BESUtil::file_to_stream() - Sent 45612251 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_Eqnc1O_#20230821140000-STAR-L2P_GHRSST-SSTsubskin-AHI_H09-ACSPO_V2.90-v02.0-fv01.0.nc.dmrpp_FhoMHF'. 
+1692909848,22196,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1692910070,22196,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1692910072,22196,info,BESUtil::file_to_stream() - Sent 45612251 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_4apJs8_#20230821140000-STAR-L2P_GHRSST-SSTsubskin-AHI_H09-ACSPO_V2.90-v02.0-fv01.0.nc.dmrpp_ftwosW'. 
+1692915012,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.gesdisc.uat.earthdata.nasa.gov/data/GPM_L3/GPM_3IMERGHH.06/2021/273/3B-HHR.MS.MRG.3IMERG.20210930-S000000-E002959.0000.V06B.HDF5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://gesdisc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/GPM_L3/GPM_3IMERGHH.06/2021/273/3B-HHR.MS.MRG.3IMERG.20210930-S000000-E002959.0000.V06B.HDF5?A-userid=uuidev'(trusted)
+1692915420,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.gesdisc.uat.earthdata.nasa.gov/data/MERRA2/M2T1NXSLV.5.12.4/2021/08/MERRA2_400.tavg1_2d_slv_Nx.20210831.nc4(trusted)' CURLINFO_EFFECTIVE_URL: 'https://gesdisc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/MERRA2/M2T1NXSLV.5.12.4/2021/08/MERRA2_400.tavg1_2d_slv_Nx.20210831.nc4?A-userid=uuidev'(trusted)
+1692925726,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://archive.podaac.sit.earthdata.nasa.gov/podaac-sit-cumulus-protected/SAILDRONE_ARCTIC_2021/saildrone-gen_6-arctic_misst_2021-sd1058-20210706T000000-20210920T235900-1_minutes-v1.1638205092237.nc(trusted)' CURLINFO_EFFECTIVE_URL: 'https://podaac-sit-cumulus-protected.s3.us-west-2.amazonaws.com/SAILDRONE_ARCTIC_2021/saildrone-gen_6-arctic_misst_2021-sd1058-20210706T000000-20210920T235900-1_minutes-v1.1638205092237.nc?A-userid=celiaouuat'(trusted)
+1692926134,22196,info,request size: 5146KB,memory used by process: 7293660KB
+1692926137,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://archive.podaac.sit.earthdata.nasa.gov/podaac-sit-cumulus-protected/SAILDRONE_ARCTIC_2022/saildrone-gen_6-arctic_misst_2022-SBE56-sd1041-20220618T000000-20220817T590000-v1.nc(trusted)' CURLINFO_EFFECTIVE_URL: 'https://podaac-sit-cumulus-protected.s3.us-west-2.amazonaws.com/SAILDRONE_ARCTIC_2022/saildrone-gen_6-arctic_misst_2022-SBE56-sd1041-20220618T000000-20220817T590000-v1.nc?A-userid=podaaccloud'(trusted)
+1692926998,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://archive.podaac.sit.earthdata.nasa.gov/podaac-sit-cumulus-protected/SAILDRONE_ARCTIC_2022/saildrone-gen_6-arctic_misst_2022_adcp-sd1041-20220618T020000-20220817T235000-5_minutes-v1.nc(trusted)' CURLINFO_EFFECTIVE_URL: 'https://podaac-sit-cumulus-protected.s3.us-west-2.amazonaws.com/SAILDRONE_ARCTIC_2022/saildrone-gen_6-arctic_misst_2022_adcp-sd1041-20220618T020000-20220817T235000-5_minutes-v1.nc?A-userid=podaaccloud'(trusted)
+1692957067,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.gesdisc.uat.earthdata.nasa.gov/data/MERRA2/M2T1NXSLV.5.12.4/2021/08/MERRA2_400.tavg1_2d_slv_Nx.20210831.nc4(trusted)' CURLINFO_EFFECTIVE_URL: 'https://gesdisc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/MERRA2/M2T1NXSLV.5.12.4/2021/08/MERRA2_400.tavg1_2d_slv_Nx.20210831.nc4?A-userid=uuidev'(trusted)
+1692963710,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.gesdisc.uat.earthdata.nasa.gov/data/MERRA2/M2T1NXSLV.5.12.4/2021/08/MERRA2_400.tavg1_2d_slv_Nx.20210831.nc4(trusted)' CURLINFO_EFFECTIVE_URL: 'https://gesdisc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/MERRA2/M2T1NXSLV.5.12.4/2021/08/MERRA2_400.tavg1_2d_slv_Nx.20210831.nc4?A-userid=uuidev'(trusted)
+1692991509,22196,info,Failed to locate '/usr/share/hyrax/catalog.xml'
+1692992578,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/dmrpp/catalog.xml'
+1692992976,22196,info,Failed to locate '/usr/share/hyrax/data/gdal/APIs/'
+1692992977,22196,info,Failed to locate '/usr/share/hyrax/data/dapreader/APIs/'
+1692992977,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/dmrpp/APIs/'
+1692992978,22196,info,Failed to locate '/usr/share/hyrax/data/dmrpp/service/'
+1692992978,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/dated/APIs/'
+1692992979,22196,info,Failed to locate '/usr/share/hyrax/data/ff/service/'
+1692992979,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/service/'
+1692992980,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/dated/service/'
+1692992981,22196,info,Failed to locate '/usr/share/hyrax/data/csv/Service/'
+1692992982,22196,info,Failed to locate '/usr/share/hyrax/data/hdf5/Service/'
+1692992983,22196,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/D4-xml/Service/'
+1692992984,22196,info,Failed to locate '/usr/share/hyrax/data/dmrpp/SERVICE/'
+1692992985,22196,info,Failed to locate '/usr/share/hyrax/data/dapreader/SERVICE/'
+1692992985,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/SERVICE/'
+1692992986,22196,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/D4-xml/SERVICE/'
+1692992989,22196,info,Failed to locate '/usr/share/hyrax/data/dapreader/WebService/'
+1692992991,22196,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/WebService/'
+1692992994,22196,info,Failed to locate '/usr/share/hyrax/ws/'
+1692993033,22196,info,Failed to locate '/usr/share/hyrax/data/ugrids/ws/'
+1692993034,22196,info,Failed to locate '/usr/share/hyrax/data/dapreader/ws/'
+1692993036,22196,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/dmr-testsuite/ws/'
+1692993037,22196,info,Failed to locate '/usr/share/hyrax/data/gdal/WS/'
+1692993037,22196,info,Failed to locate '/usr/share/hyrax/data/stare/WS/'
+1692993038,22196,info,Failed to locate '/usr/share/hyrax/data/hdf4/WS/'
+1692993039,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/dated/WS/'
+1692993040,22196,info,Failed to locate '/usr/share/hyrax/data/gdal/wsdl/'
+1692993041,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/wsdl/'
+1692993042,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/wsdl/'
+1692993043,22196,info,Failed to locate '/usr/share/hyrax/data/WSDL/'
+1692993044,22196,info,Failed to locate '/usr/share/hyrax/data/dmrpp/WSDL/'
+1692993046,22196,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/dmr-testsuite/WSDL/'
+1692993046,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/WSDL/'
+1692993102,22196,info,Failed to locate '/usr/share/hyrax/data/catalog.xml'
+1692993103,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/catalog.xml'
+1692993103,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/catalog.xml'
+1692993110,22196,info,Failed to locate '/usr/share/hyrax/data/dmrpp/api.jsp'
+1692993110,22196,info,Failed to locate '/usr/share/hyrax/data/stare/api.jsp'
+1692993111,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/grids/api.jsp'
+1692993112,22196,info,Failed to locate '/usr/share/hyrax/data/ff/service.jsp'
+1692993112,22196,info,Failed to locate '/usr/share/hyrax/data/nc/service.jsp'
+1692993113,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/dated/service.jsp'
+1692993113,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/service.jsp'
+1692993114,22196,info,Failed to locate '/usr/share/hyrax/data/csv/ws.jsp'
+1692993114,22196,info,Failed to locate '/usr/share/hyrax/data/dmrpp/ws.jsp'
+1692993115,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/dated/ws.jsp'
+1692993118,22196,info,Failed to locate '/usr/share/hyrax/data/gdal/catalog.xml'
+1692993133,22196,info,Failed to locate '/usr/share/hyrax/data/dapreader/catalog.xml'
+1692993136,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/grids/catalog.xml'
+1692993275,22196,info,Failed to locate '/usr/share/hyrax/data/ugrids/catalog.xml'
+1692993354,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/dated/catalog.xml'
+1692993777,22196,info,Failed to locate '/usr/share/hyrax/data/hdf4/catalog.xml'
+1692993782,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/catalog.xml'
+1692993863,22196,info,Failed to locate '/usr/share/hyrax/data/gdal/catalog.xml'
+1692993865,22196,info,Failed to locate '/usr/share/hyrax/data/hdf5/catalog.xml'
+1692993885,22196,info,Failed to locate '/usr/share/hyrax/data/catalog.xml'
+1692993890,22196,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/catalog.xml'
+1692993958,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/dated/catalog.xml'
+1692993976,22196,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/dmr-testsuite/catalog.xml'
+1692994381,22196,info,Failed to locate '/usr/share/hyrax/data/hdf4/catalog.xml'
+1692994390,22196,info,Failed to locate '/usr/share/hyrax/data/nc/catalog.xml'
+1692994424,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/dmrpp/catalog.xml'
+1692994456,22196,info,Failed to locate '/usr/share/hyrax/data/csv/catalog.xml'
+1692994458,22196,info,Failed to locate '/usr/share/hyrax/data/dapreader/catalog.xml'
+1692994471,22196,info,Failed to locate '/usr/share/hyrax/data/dmrpp/catalog.xml'
+1692994521,22196,info,Failed to locate '/usr/share/hyrax/data/gdal/catalog.xml'
+1692994523,22196,info,Failed to locate '/usr/share/hyrax/data/hdf5/catalog.xml'
+1692994844,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/dated/catalog.xml'
+1692995073,22196,info,Failed to locate '/usr/share/hyrax/data/hdf4/catalog.xml'
+1692995144,22196,info,Failed to locate '/usr/share/hyrax/data/stare/catalog.xml'
+1692995776,22196,info,Failed to locate '/usr/share/hyrax/###4444#333 + #_QUALYS###/###8888#111 + #_QUALYS###/'
+1692995777,22196,info,Failed to locate '/usr/share/hyrax/data/ff/###4444#333 + #_QUALYS###/###8888#111 + #_QUALYS###/'
+1692995777,22196,info,Failed to locate '/usr/share/hyrax/data/ugrids/###4444#333 + #_QUALYS###/###8888#111 + #_QUALYS###/'
+1692995778,22196,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/dmr-testsuite/###4444#333 + #_QUALYS###/###8888#111 + #_QUALYS###/'
+1692995778,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/dmrpp/${(4444*333 + "_QUALYS")}/${(8888*111 + "_QUALYS")}/catalog.xml'
+1692995782,22196,info,Failed to locate '/usr/share/hyrax/axis2-admin/login'
+1692995783,22196,info,Failed to locate '/usr/share/hyrax/data/hdf5/axis2-admin/login'
+1692995783,22196,info,Failed to locate '/usr/share/hyrax/data/stare/axis2-admin/login'
+1692995784,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/dated/axis2-admin/login'
+1692995808,22196,info,Failed to locate '/usr/share/hyrax/data/nc/admin/'
+1692995809,22196,info,Failed to locate '/usr/share/hyrax/data/csv/admin/'
+1692995810,22196,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/D4-xml/admin/'
+1692995810,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/admin/'
+1692995812,22196,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/adm/'
+1692995812,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/dated/adm/'
+1692995813,22196,info,Failed to locate '/usr/share/hyrax/data/gdal/administration/'
+1692995814,22196,info,Failed to locate '/usr/share/hyrax/data/ff/administration/'
+1692995815,22196,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/dmr-testsuite/administration/'
+1692995815,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/administration/'
+1692995819,22196,info,Failed to locate '/usr/share/hyrax/data/dmrpp/admin.jsp'
+1692995820,22196,info,Failed to locate '/usr/share/hyrax/data/ff/admin.jsp'
+1692995822,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/grids/admin.jsp'
+1692995872,22196,info,Failed to locate '/usr/share/hyrax/data/ugrids/src/'
+1692995872,22196,info,Failed to locate '/usr/share/hyrax/src/'
+1692995873,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/dmrpp/src/'
+1692995873,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/src/'
+1692995874,22196,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/dmr-testsuite/src/'
+1692995877,22196,info,Failed to locate '/usr/share/hyrax/data/gdal/common/'
+1692995877,22196,info,Failed to locate '/usr/share/hyrax/data/stare/common/'
+1692995878,22196,info,Failed to locate '/usr/share/hyrax/data/hdf4/common/'
+1692995879,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/grids/common/'
+1692995880,22196,info,Failed to locate '/usr/share/hyrax/data/gdal/config/'
+1692995881,22196,info,Failed to locate '/usr/share/hyrax/data/ff/config/'
+1692995882,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/dmrpp/config/'
+1692995883,22196,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/dmr-testsuite/config/'
+1692995885,22196,info,Failed to locate '/usr/share/hyrax/data/stare/css/'
+1692995886,22196,info,Failed to locate '/usr/share/hyrax/data/hdf4/css/'
+1692995888,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/dated/css/'
+1692995932,22196,info,Failed to locate '/usr/share/hyrax/data/csv/docs/'
+1692995933,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/docs/'
+1692995934,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/dated/docs/'
+1692995936,22196,info,Failed to locate '/usr/share/hyrax/data/ff/external/'
+1692995937,22196,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/external/'
+1692995938,22196,info,Failed to locate '/usr/share/hyrax/data/gdal/history/'
+1692995939,22196,info,Failed to locate '/usr/share/hyrax/data/stare/history/'
+1692995940,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/dated/history/'
+1692995941,22196,info,Failed to locate '/usr/share/hyrax/data/include/'
+1692995942,22196,info,Failed to locate '/usr/share/hyrax/data/dmrpp/include/'
+1692995943,22196,info,Failed to locate '/usr/share/hyrax/data/hdf4/include/'
+1692995944,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/grids/include/'
+1692995946,22196,info,Failed to locate '/usr/share/hyrax/data/dmrpp/includes/'
+1692995947,22196,info,Failed to locate '/usr/share/hyrax/data/stare/includes/'
+1692995948,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/includes/'
+1692995949,22196,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/dmr-testsuite/includes/'
+1692995950,22196,info,Failed to locate '/usr/share/hyrax/data/dmrpp/js/'
+1692995952,22196,info,Failed to locate '/usr/share/hyrax/data/ff/js/'
+1692995953,22196,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/js/'
+1692995991,22196,info,Failed to locate '/usr/share/hyrax/data/nc/lib/'
+1692995992,22196,info,Failed to locate '/usr/share/hyrax/data/csv/lib/'
+1692995994,22196,info,Failed to locate '/usr/share/hyrax/data/hdf4/lib/'
+1692995995,22196,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/dmr-testsuite/lib/'
+1692996000,22196,info,Failed to locate '/usr/share/hyrax/data/csv/test.jsp'
+1692996002,22196,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/test.jsp'
+1692996002,22196,info,Failed to locate '/usr/share/hyrax/data/hdf4/test.jsp'
+1692996008,22196,info,Failed to locate '/usr/share/hyrax/data/ugrids/bin/'
+1692996010,22196,info,Failed to locate '/usr/share/hyrax/data/hdf4/bin/'
+1692996012,22196,info,Failed to locate '/usr/share/hyrax/data/dapreader/dap4/dmr-testsuite/bin/'
+1692996222,22196,info,Failed to locate '/usr/share/hyrax/data/ugrids/catalog.xml'
+1692996227,22196,info,Failed to locate '/usr/share/hyrax/data/hdf5/catalog.xml'
+1692996231,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/dated/catalog.xml'
+1692996283,22196,info,Failed to locate '/usr/share/hyrax/data/stare/catalog.xml'
+1692996290,22196,info,Failed to locate '/usr/share/hyrax/data/ncml/agg/grids/catalog.xml'
+1693000841,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.gesdisc.uat.earthdata.nasa.gov/data/MERRA2/M2T1NXSLV.5.12.4/2021/08/MERRA2_400.tavg1_2d_slv_Nx.20210831.nc4(trusted)' CURLINFO_EFFECTIVE_URL: 'https://gesdisc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/MERRA2/M2T1NXSLV.5.12.4/2021/08/MERRA2_400.tavg1_2d_slv_Nx.20210831.nc4?A-userid=uuidev'(trusted)
+1693010068,22196,info,Failed to locate '/usr/share/hyrax/ngap/collections/C1238392622-EEDTEST/granules/f16_ssmis_20210425v7.nc.dap'
+1693010113,22196,info,BESUtil::file_to_stream() - Sent 24771 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_fa0ib8_#f16_ssmis_20210425v7.nc.dmrpp_8XyEH9'. 
+1693010113,22196,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693010113,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://harmony.uat.earthdata.nasa.gov/service-results/harmony-uat-eedtest-data/C1238392622-EEDTEST/f16_ssmis_20210425v7.nc(trusted)' CURLINFO_EFFECTIVE_URL: 'https://harmony-uat-eedtest-data.s3.us-west-2.amazonaws.com/C1238392622-EEDTEST/f16_ssmis_20210425v7.nc?A-userid=harmony_dev_user'(trusted)
+1693010176,22196,info,Failed to locate '/usr/share/hyrax/ngap/collections/C1245662776-EEDTEST/granules/M2T1NXSLV.5.12.4:MERRA2_400.tavg1_2d_slv_Nx.20210609.nc4.dap.nc4'
+1693010566,22196,info,BESUtil::file_to_stream() - Sent 24040 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_I63ouV_#MERRA2_400.tavg1_2d_slv_Nx.20210609.nc4.dmrpp_d4WYhn'. 
+1693010566,22196,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693010566,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://harmony.uat.earthdata.nasa.gov/service-results/harmony-uat-eedtest-data/C1245662776-EEDTEST/MERRA2_400.tavg1_2d_slv_Nx.20210609.nc4(trusted)' CURLINFO_EFFECTIVE_URL: 'https://harmony-uat-eedtest-data.s3.us-west-2.amazonaws.com/C1245662776-EEDTEST/MERRA2_400.tavg1_2d_slv_Nx.20210609.nc4?A-userid=harmony_dev_user'(trusted)
+1693010588,22196,info,BESUtil::file_to_stream() - Sent 41253 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_kAz36E_#f16_ssmis_20210425v7.nc.dmrpp_Zf9YQr'. 
+1693010588,22196,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693010616,22196,info,Failed to locate '/usr/share/hyrax/ngap/collections/C1245618475-EEDTEST/granules/GPM_3IMERGHH.06:3B-HHR.MS.MRG.3IMERG.20200101-S000000-E002959.0000.V06B.HDF5.dap.nc4'
+1693010665,22196,info,Failed to locate '/usr/share/hyrax/ngap/collections/C1245804308-EEDTEST/granules/NorthSlope_NEE_TVPRM.TVPRM_IVO_BES_ABoVE-LC_NARR_GOSIF_2008.nc4'
+1693010667,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://harmony.uat.earthdata.nasa.gov/service-results/harmony-uat-eedtest-data/C1245804308-EEDTEST/TVPRM_IVO_BES_ABoVE-LC_NARR_GOSIF_2008.nc4(trusted)' CURLINFO_EFFECTIVE_URL: 'https://harmony-uat-eedtest-data.s3.us-west-2.amazonaws.com/C1245804308-EEDTEST/TVPRM_IVO_BES_ABoVE-LC_NARR_GOSIF_2008.nc4?A-userid=harmony_dev_user'(trusted)
+1693010668,22196,info,BESUtil::file_to_stream() - Sent 45387 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_uOkWJ5_#TVPRM_IVO_BES_ABoVE-LC_NARR_GOSIF_2008.nc4.dmrpp_1QCXtw'. 
+1693010668,22196,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693040424,22196,info,request size: 0KB,memory used by process: 7293660KB
+1693040427,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL08/005/2020/01/06/ATL08_20200106083947_01620610_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL08/005/2020/01/06/ATL08_20200106083947_01620610_005_01.h5?A-userid=nsidc_ops'(trusted)
+1693126826,22196,info,request size: 0KB,memory used by process: 7293660KB
+1693126828,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL08/005/2020/01/01/ATL08_20200101220129_00940612_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL08/005/2020/01/01/ATL08_20200101220129_00940612_005_01.h5?A-userid=nsidc_ops'(trusted)
+1693213223,22196,info,request size: 0KB,memory used by process: 7293660KB
+1693213226,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL08/005/2020/01/02/ATL08_20200102084807_01010610_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL08/005/2020/01/02/ATL08_20200102084807_01010610_005_01.h5?A-userid=nsidc_ops'(trusted)
+1693227310,22196,info,Failed to locate '/usr/share/hyrax/ngap/collections/C1238392622-EEDTEST/granules/f16_ssmis_20210425v7.nc.dap'
+1693227339,22196,info,BESUtil::file_to_stream() - Sent 212045 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_45GP4c_#f16_ssmis_20210425v7.nc.dmrpp_L1wMwc'. 
+1693227339,22196,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693227339,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://harmony.uat.earthdata.nasa.gov/service-results/harmony-uat-eedtest-data/C1238392622-EEDTEST/f16_ssmis_20210425v7.nc(trusted)' CURLINFO_EFFECTIVE_URL: 'https://harmony-uat-eedtest-data.s3.us-west-2.amazonaws.com/C1238392622-EEDTEST/f16_ssmis_20210425v7.nc?A-userid=harmony_dev_user'(trusted)
+1693227397,22196,info,BESUtil::file_to_stream() - Sent 24771 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_q3E5f3_#f16_ssmis_20210425v7.nc.dmrpp_5kJVsb'. 
+1693227397,22196,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693227417,22196,info,Failed to locate '/usr/share/hyrax/ngap/collections/C1245662776-EEDTEST/granules/M2T1NXSLV.5.12.4:MERRA2_400.tavg1_2d_slv_Nx.20210609.nc4.dap.nc4'
+1693227494,22196,info,Failed to locate '/usr/share/hyrax/ngap/collections/C1245618475-EEDTEST/granules/GPM_3IMERGHH.06:3B-HHR.MS.MRG.3IMERG.20200118-S190000-E192959.1140.V06B.HDF5'
+1693227514,22196,info,Failed to locate '/usr/share/hyrax/ngap/collections/C1245804308-EEDTEST/granules/NorthSlope_NEE_TVPRM.TVPRM_IVO_BES_ABoVE-LC_NARR_GOSIF_2008.nc4'
+1693227539,22196,info,BESUtil::file_to_stream() - Sent 51167 bytes from file '/tmp/hyrax_fonc/dap4_nc_bes_util_Hn6Umf_#TVPRM_IVO_BES_ABoVE-LC_NARR_GOSIF_2008.nc4.dmrpp_ltoy4f'. 
+1693227539,22196,info,BESUtil::file_to_stream() - Using ostream: 0x7ffce9679f70 cout: 0x6123c0
+1693227539,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://harmony.uat.earthdata.nasa.gov/service-results/harmony-uat-eedtest-data/C1245804308-EEDTEST/TVPRM_IVO_BES_ABoVE-LC_NARR_GOSIF_2008.nc4(trusted)' CURLINFO_EFFECTIVE_URL: 'https://harmony-uat-eedtest-data.s3.us-west-2.amazonaws.com/C1245804308-EEDTEST/TVPRM_IVO_BES_ABoVE-LC_NARR_GOSIF_2008.nc4?A-userid=harmony_dev_user'(trusted)
+1693246995,22196,info,request size: 17KB,memory used by process: 7293660KB
+1693246998,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL06/005/2020/01/01/ATL06_20200101223747_00950603_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL06/005/2020/01/01/ATL06_20200101223747_00950603_005_01.h5?A-userid=jhrguat'(trusted)
+1693247019,22196,info,request size: 17KB,memory used by process: 7293660KB
+1693247036,22196,info,request size: 17KB,memory used by process: 7293660KB
+1693247078,22196,info,request size: 41KB,memory used by process: 7293660KB
+1693247080,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL07/005/2020/01/01/ATL07-01_20200101015629_00820601_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL07/005/2020/01/01/ATL07-01_20200101015629_00820601_005_01.h5?A-userid=jhrguat'(trusted)
+1693247143,22196,info,request size: 41KB,memory used by process: 7293660KB
+1693247207,22196,info,request size: 11KB,memory used by process: 7293660KB
+1693247210,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL08/005/2020/01/01/ATL08_20200101145654_00900605_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL08/005/2020/01/01/ATL08_20200101145654_00900605_005_01.h5?A-userid=jhrguat'(trusted)
+1693247235,22196,info,request size: 11KB,memory used by process: 7293660KB
+1693247256,22196,info,request size: 11KB,memory used by process: 7293660KB
+1693247271,22196,info,request size: 11KB,memory used by process: 7293660KB
+1693247319,22196,info,request size: 20KB,memory used by process: 7293660KB
+1693247321,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL10/005/2020/01/01/ATL10-01_20200101002212_00810601_005_02.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL10/005/2020/01/01/ATL10-01_20200101002212_00810601_005_02.h5?A-userid=jhrguat'(trusted)
+1693247342,22196,info,request size: 20KB,memory used by process: 7293660KB
+1693247359,22196,info,request size: 20KB,memory used by process: 7293660KB
+1693247396,22196,info,request size: 203KB,memory used by process: 7293660KB
+1693247398,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL12/005/2020/01/ATL12_20200101002212_00810601_005_02.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL12/005/2020/01/ATL12_20200101002212_00810601_005_02.h5?A-userid=jhrguat'(trusted)
+1693247451,22196,info,request size: 203KB,memory used by process: 7293660KB
+1693247489,22196,info,request size: 203KB,memory used by process: 7293660KB
+1693247531,22196,info,request size: 43KB,memory used by process: 7293660KB
+1693247533,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL13/005/2020/01/ATL13_20200101002212_00810601_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL13/005/2020/01/ATL13_20200101002212_00810601_005_01.h5?A-userid=jhrguat'(trusted)
+1693247575,22196,info,request size: 43KB,memory used by process: 7293660KB
+1693247627,22196,info,request size: 136KB,memory used by process: 7293660KB
+1693247653,22196,info,request size: 136KB,memory used by process: 7293660KB
+1693247679,22196,info,request size: 136KB,memory used by process: 7293660KB
+1693247709,22196,info,request size: 4955KB,memory used by process: 7293660KB
+1693247712,22196,info,CurlUtils::retrieve_effective_url() - Source URL: 'https://data.nsidc.uat.earthdatacloud.nasa.gov/nsidc-cumulus-uat-protected/ATLAS/ATL03/005/2020/01/01/ATL03_20200101145654_00900605_005_01.h5(trusted)' CURLINFO_EFFECTIVE_URL: 'https://nsidc-cumulus-uat-protected.s3.us-west-2.amazonaws.com/ATLAS/ATL03/005/2020/01/01/ATL03_20200101145654_00900605_005_01.h5?A-userid=jhrguat'(trusted)
+1693247749,22196,info,request size: 4955KB,memory used by process: 7293660KB
+1693247766,22196,info,request size: 4955KB,memory used by process: 7293660KB
+1693247780,22196,info,request size: 4955KB,memory used by process: 7293660KB
+1693247830,22196,info,request size: 324KB,memory used by process: 7293660KB
+1693247849,22196,info,request size: 324KB,memory used by process: 7293660KB
