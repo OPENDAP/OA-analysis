@@ -21,7 +21,7 @@ echo "Connect (s),TTFB (s),Total time(s),Response size (bytes)"
 for i in $(seq $N)
 do
     burl -w "%{time_connect},%{time_starttransfer},%{time_total}," -s -o $name "$url"
-    if /Users/jimg/src/opendap/hyrax/build/bin/getdap4 -D -M $name > /dev/null
+    if getdap4 -D -M $name > /dev/null
     then
         file_size=$(wc -c $name | awk '{print $1}')
         rm $name

@@ -6,7 +6,23 @@
 * Run the `process-log.sh` script with the raw BES log as input. Parameter $2 is the prefix for the putput files
 * Run the `extract-req-timing.py` script using the `.timing.csv` and `.request.csv` files from above as input.
 * Import the output from `extract-req-timing.py` to a spreadsheet.
-* Make sense of the data...
+* Make sense of the data... This often means trimming the `bes-in-cloud-72bf.performance-data.csv` file to show just the date/time range of interest.
+
+Here's what that looks like in practice:
+```
+edamame:raw-bes-logs jimg$ ./process-logs.sh bes-in-cloud-72bf.log bes-in-cloud-72bf
+Total lines,    18558 bes-in-cloud-72bf.log
+Error lines,      449
+Info lines,     1015
+Request  lines,      516
+Timing lines,    16844
+edamame:raw-bes-logs jimg$ ./extract-req-timing.py -t bes-in-cloud-72bf.timing.csv \
+    -r bes-in-cloud-72bf.request.csv > bes-in-cloud-72bf.performance-data.csv
+```
+
+## The OA profiling data can be found here...
+
+In a Google spreadsheet: https://docs.google.com/spreadsheets/d/1qpuW_odcWcy84eD6sMOHmiG9I52Rg-84kIdioF4A2tg/edit?usp=sharing
 
 ## About the raw BES log files
 
