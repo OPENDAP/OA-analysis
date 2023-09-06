@@ -8,11 +8,17 @@
 #
 # Print data for each of the N requests, as a table, with a header using <Name>
 
-N=$1
-name=$2
-url=$3
+N="${1}"
+name="${2}"
+url="${3}"
+token="${4}"
 
-burl -s -o $name "$url"
+if test -n "${token}"
+then
+    curl -s -o "${name}" -H "${token}" "${url}"
+else 
+    burl -s -o "${name}" "${url}"
+fi
 
 echo ""
 echo "Request,$name,$url"
@@ -20,7 +26,13 @@ echo "Connect (s),TTFB (s),Total time(s),Response size (bytes)"
 
 for i in $(seq $N)
 do
-    burl -w "%{time_connect},%{time_starttransfer},%{time_total}," -s -o $name "$url"
+    if test -n "${token}"
+    then
+        curl -w "%{time_connect},%{time_starttransfer},%{time_total}," -s -o "${name}" -H "${token}" "${url}"
+    else 
+        burl -w "%{time_connect},%{time_starttransfer},%{time_total}," -s -o "${name}" "${url}"
+    fi
+    
     if getdap4 -D -M $name > /dev/null
     then
         file_size=$(wc -c $name | awk '{print $1}')
