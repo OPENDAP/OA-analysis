@@ -11,12 +11,13 @@
 N="${1}"
 name="${2}"
 url="${3}"
-token="${4}"
+edl_token_auth_hdr="${4}"
 
-if test -n "${token}"
+# Use the the EDL authorization header if one is provided.
+if test -n "${edl_token_auth_hdr}"
 then
     # Use cURL with no following redirects, no .netrc, no HTTP BASIC auth.
-    curl -s -o "${name}" -H "${token}" "${url}"
+    curl -s -o "${name}" -H "${edl_token_auth_hdr}" "${url}"
 else 
     # Use burl (cURL with following redirects, .netrc, and HTTP BASIC auth.)
     burl -s -o "${name}" "${url}"
@@ -28,10 +29,10 @@ echo "Connect (s),TTFB (s),Total time(s),Response size (bytes)"
 
 for i in $(seq $N)
 do
-    if test -n "${token}"
+    if test -n "${edl_token_auth_hdr}"
     then
         # Use cURL with no following redirects, no .netrc, no HTTP BASIC auth.
-        curl -w "%{time_connect},%{time_starttransfer},%{time_total}," -s -o "${name}" -H "${token}" "${url}"
+        curl -w "%{time_connect},%{time_starttransfer},%{time_total}," -s -o "${name}" -H "${edl_token_auth_hdr}" "${url}"
     else 
         # Use burl (cURL with following redirects, .netrc, and HTTP BASIC auth.)
         burl -w "%{time_connect},%{time_starttransfer},%{time_total}," -s -o "${name}" "${url}"
