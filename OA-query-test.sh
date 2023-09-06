@@ -15,8 +15,10 @@ token="${4}"
 
 if test -n "${token}"
 then
+    # Use cURL with no following redirects, no .netrc, no HTTP BASIC auth.
     curl -s -o "${name}" -H "${token}" "${url}"
 else 
+    # Use burl (cURL with following redirects, .netrc, and HTTP BASIC auth.)
     burl -s -o "${name}" "${url}"
 fi
 
@@ -28,8 +30,10 @@ for i in $(seq $N)
 do
     if test -n "${token}"
     then
+        # Use cURL with no following redirects, no .netrc, no HTTP BASIC auth.
         curl -w "%{time_connect},%{time_starttransfer},%{time_total}," -s -o "${name}" -H "${token}" "${url}"
     else 
+        # Use burl (cURL with following redirects, .netrc, and HTTP BASIC auth.)
         burl -w "%{time_connect},%{time_starttransfer},%{time_total}," -s -o "${name}" "${url}"
     fi
     
