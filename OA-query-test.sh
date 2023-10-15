@@ -38,12 +38,12 @@ do
         burl -w "%{time_connect},%{time_starttransfer},%{time_total}," -s -o "${name}" "${url}"
     fi
     
-    if getdap4 -D -M $name > /dev/null
+    if grep '<Dataset.*>' $name > /dev/null 2>&1
     then
         file_size=$(wc -c $name | awk '{print $1}')
+        echo "$name,$file_size"
         rm $name
-        echo $file_size
     else
-        echo "Bad response"
+        echo "Bad response, $name"
     fi
 done
