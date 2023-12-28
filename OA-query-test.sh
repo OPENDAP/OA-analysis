@@ -32,7 +32,7 @@ do
     if test -n "${edl_token_auth_hdr}"
     then
         # Use cURL with no following redirects, no .netrc, no HTTP BASIC auth.
-        curl -w "%{time_connect},%{time_starttransfer},%{time_total}," -s -o "${name}" -H "${edl_token_auth_hdr}" "${url}"
+        curl -w "%{time_connect},%{time_starttransfer},%{time_total}," -s -o "${name}" -L -b cookie -c cookie -H "${edl_token_auth_hdr}" "${url}"
     else 
         # Use burl (cURL with following redirects, .netrc, and HTTP BASIC auth.)
         burl -w "%{time_connect},%{time_starttransfer},%{time_total}," -s -o "${name}" "${url}"
@@ -41,7 +41,7 @@ do
     if getdap4 -D -M $name > /dev/null
     then
         file_size=$(wc -c $name | awk '{print $1}')
-        rm $name
+        mv $name ${name}-${i}.dap4
         echo $file_size
     else
         echo "Bad response"
